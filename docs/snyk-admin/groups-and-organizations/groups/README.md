@@ -31,19 +31,15 @@ For a detailed breakdown of user roles and their associated access permissions, 
 
 Select **Reports** to view the vulnerability status of the Organizations in your Group in one place as a report:
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/Reports.png" alt="Group report filtered to show open issues"><figcaption><p>Group report filtered to show open issues</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/Reports.png" alt="Group report filtered to show open issues"><figcaption><p>Group report filtered to show open issues</p></figcaption></figure></div>
 
 {% hint style="info" %}
-See [Reporting](../../../manage-issues/reporting/) for more details.
+See [Reporting](../../../manage-risk/reporting/) for more details.
 {% endhint %}
 
 ### Group Asset Dashboard
 
-Select **Asset Dashboard** for an overview of your application and security controls.&#x20;
+Select **Asset Dashboard** for an overview of your application and security controls.
 
 {% hint style="info" %}
 **Asset Dashboard** is available only with the Snyk AppRisk plan.
@@ -51,7 +47,7 @@ Select **Asset Dashboard** for an overview of your application and security cont
 
 ### Group Inventory
 
-Select **Inventory** to view, filter, and manage your assets.&#x20;
+Select **Inventory** to view, filter, and manage your assets.
 
 {% hint style="info" %}
 **Inventory** is available only with the Snyk AppRisk plan.
@@ -69,11 +65,7 @@ Select **Issues** to better identify and prioritize your Container, Code, and Op
 
 Select **Dependencies** to view the dependencies and license issues for your Groups:
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/dependencies (2).png" alt="View Group dependencies"><figcaption><p>View Group dependencies</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/dependencies (2).png" alt="View Group dependencies"><figcaption><p>View Group dependencies</p></figcaption></figure></div>
 
 {% hint style="info" %}
 See [Dependencies and licenses](../../../manage-risk/reporting/dependencies-and-licenses/) for more details.
@@ -83,11 +75,7 @@ See [Dependencies and licenses](../../../manage-risk/reporting/dependencies-and-
 
 Select **Policies** to view the license and security policies for your Group:
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/policies.png" alt="View Group policies"><figcaption><p>View Group policies</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/policies.png" alt="View Group policies"><figcaption><p>View Group policies</p></figcaption></figure></div>
 
 {% hint style="info" %}
 See [Policies](../../../manage-risk/policies/) for details.

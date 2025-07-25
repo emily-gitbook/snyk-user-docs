@@ -44,7 +44,7 @@ The following supported Snyk data are automatically synced:
 * Snyk Open Source
 * Snyk Code
 * Snyk IaC
-* Snyk Container&#x20;
+* Snyk Container
 
 Each connected integration enables you to:
 
@@ -55,29 +55,29 @@ Each connected integration enables you to:
 
 ### Wildcard SCM integration
 
-The wildcard integration allows you to use a special character to detect and integrate multiple SCM organizations simultaneously.&#x20;
+The wildcard integration allows you to use a special character to detect and integrate multiple SCM organizations simultaneously.
 
 {% hint style="info" %}
-The wildcard integration applies to the GitHub and Azure DevOps integrations and offers support when you set them up using [Snyk Broker](../../enterprise-setup/snyk-broker/snyk-broker-apprisk.md).&#x20;
+The wildcard integration applies to the GitHub and Azure DevOps integrations and offers support when you set them up using [Snyk Broker](../../enterprise-setup/snyk-broker/snyk-broker-apprisk.md).
 {% endhint %}
 
 You can use the wildcards while setting up your integration using the Integration Hub:
 
-* Open the **Integration Hub** menu.&#x20;
-* Select the **SCM** tag and search for GitHub or Azure DevOps.&#x20;
+* Open the **Integration Hub** menu.
+* Select the **SCM** tag and search for GitHub or Azure DevOps.
 * Click the **Add** button.
-* In the **Organizations** field, add the Organization details by using the `*` symbol. For example, using  `*snyk` integrates all SCM Organizations that have Snyk in their name.
-* All the Organizations that match with the wildcard, `*` symbol will be added.&#x20;
+* In the **Organizations** field, add the Organization details by using the `*` symbol. For example, using `*snyk` integrates all SCM Organizations that have Snyk in their name.
+* All the Organizations that match with the wildcard, `*` symbol will be added.
 
 {% hint style="info" %}
-The wildcard, `*` symbol is considered a living command and will be applied every time you are rescanning your repositories.&#x20;
+The wildcard, `*` symbol is considered a living command and will be applied every time you are rescanning your repositories.
 {% endhint %}
 
 ### Snyk AppRisk integrations ecosystem
 
 You can refer to the table below to verify the availability and compatibility of all integrations for Snyk AppRisk. The integrations are categorized by type, listed by name, and indicated as available or not for both Snyk AppRisk Essentials and Snyk AppRisk Pro.
 
-<table><thead><tr><th width="172">Integration type</th><th width="164">Integration name</th><th width="198">Snyk AppRisk Essentials</th><th>Snyk AppRisk Pro</th></tr></thead><tbody><tr><td>SCM</td><td><ul><li><a href="github.md#group-level-snyk-apprisk-integrations">GitHub</a></li><li><a href="bitbucket-cloud.md#bitbucket-setup-guide">BitBucket</a></li><li><a href="github.md#group-level-snyk-apprisk-integrations">GitLab</a></li><li><a href="azure-repositories-tfs.md#azure-devops-setup-guide">Azure DevOps</a></li></ul></td><td>                <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td><td>                   <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>Dev portals and Service catalogs</td><td><ul><li><a href="application-context-for-scm-integrations/">Backstage catalog</a></li><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#servicenow-cmdb-setup-guide">ServiceNow CMDB</a></li><li><a href="application-context-for-scm-integrations/#atlassian-compass">Atlassian Compass</a></li><li><a href="application-context-for-scm-integrations/#harness">Harness</a></li><li><a href="application-context-for-scm-integrations/#opslevel">OpsLevel</a></li><li><a href="application-context-for-scm-integrations/#datadog-org-context-service-catalog">Datadog Org Context (Service Catalog)</a></li></ul></td><td>               <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td><td>                     <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>Risk management collaboration</td><td><ul><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#jira-setup-guide">Jira</a></li><li><a href="../../integrate-with-snyk/jira-and-slack-integrations/slack-integration.md">Slack</a></li><li>Email</li></ul></td><td>                <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td><td>                    <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>AST</td><td><ul><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#nightfall-setup-guide">NightFall</a></li><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#gitguardian-setup-guide">GitGuardian</a></li></ul></td><td>               <span data-gb-custom-inline data-tag="emoji" data-code="2716">✖️</span></td><td>                     <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>Runtime security and observability</td><td><ul><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/snyk-runtime-sensor.md">Snyk runtime sensor</a></li><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#sysdig-setup-guide">Sysdig</a></li><li><a href="../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#dynatrace-setup-guide">Dynatrace</a></li></ul></td><td>               <span data-gb-custom-inline data-tag="emoji" data-code="2716">✖️</span></td><td>                     <span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr></tbody></table>
+<table><thead><tr><th width="172">Integration type</th><th width="164">Integration name</th><th width="198">Snyk AppRisk Essentials</th><th>Snyk AppRisk Pro</th></tr></thead><tbody><tr><td>SCM</td><td><ul><li><a href="github.md#group-level-snyk-apprisk-integrations">GitHub</a></li><li><a href="bitbucket-cloud.md#bitbucket-setup-guide">BitBucket</a></li><li><a href="github.md#group-level-snyk-apprisk-integrations">GitLab</a></li><li><a href="azure-repositories-tfs.md#azure-devops-setup-guide">Azure DevOps</a></li></ul></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>Dev portals and Service catalogs</td><td><ul><li><a href="application-context-for-scm-integrations/">Backstage catalog</a></li><li><a href="../../integrate-with-snyk/connect-a-third-party-integration.md#servicenow-cmdb-setup-guide">ServiceNow CMDB</a></li><li><a href="application-context-for-scm-integrations/#atlassian-compass">Atlassian Compass</a></li><li><a href="application-context-for-scm-integrations/#harness">Harness</a></li><li><a href="application-context-for-scm-integrations/#opslevel">OpsLevel</a></li><li><a href="application-context-for-scm-integrations/#datadog-org-context-service-catalog">Datadog Org Context (Service Catalog)</a></li></ul></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>Risk management collaboration</td><td><ul><li><a href="../../integrate-with-snyk/connect-a-third-party-integration.md#jira-setup-guide">Jira</a></li><li><a href="../../integrate-with-snyk/jira-and-slack-integrations/slack-integration.md">Slack</a></li><li>Email</li></ul></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>AST</td><td><ul><li><a href="../../integrate-with-snyk/connect-a-third-party-integration.md#nightfall-setup-guide">NightFall</a></li><li><a href="../../integrate-with-snyk/connect-a-third-party-integration.md#gitguardian-setup-guide">GitGuardian</a></li></ul></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2716">✖️</span></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr><tr><td>Runtime security and observability</td><td><ul><li><a href="../../integrate-with-snyk/snyk-runtime-sensor.md">Snyk runtime sensor</a></li><li><a href="../../integrate-with-snyk/connect-a-third-party-integration.md#sysdig-setup-guide">Sysdig</a></li><li><a href="../../integrate-with-snyk/connect-a-third-party-integration.md#dynatrace-setup-guide">Dynatrace</a></li></ul></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2716">✖️</span></td><td><span data-gb-custom-inline data-tag="emoji" data-code="2714">✔️</span></td></tr></tbody></table>
 
 ### Using the Integration Hub
 
@@ -233,7 +233,7 @@ To set up any Snyk Bitbucket integration, you must be a Bitbucket Workspace Admi
 
 #### Bitbucket Cloud and Bitbucket Data Center/Server scopes
 
-The following table details the required permission scopes in Bitbucket Cloud and Bitbucket Data Center/Server**:**
+The following table details the required permission scopes in Bitbucket Cloud and Bitbucket Data Center/Server\*\*:\*\*
 
 | Action and purpose                                                                                                                                      |                                                                       App password requirements                                                                      | Bitbucket permissions |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
@@ -271,7 +271,7 @@ To set up the Snyk Azure Repositories (TFS) integration you must be:
 
 In Azure, the PAT requires the following permissions for Snyk access:
 
-* **Expiry**: Custom defined. Snyk recommends choosing a token expiration date that is far in the future.&#x20;
+* **Expiry**: Custom defined. Snyk recommends choosing a token expiration date that is far in the future.
 * **Scopes**: Custom defined. `Read & write` permissions are needed for the **Code** scope.
 
 ## Integrated SCM tokens for Snyk Broker
@@ -287,7 +287,7 @@ An integrated SCM token can be generated for the following SCM integrations:
 
 ### GitHub and GitHub Enterprise SCM token
 
-**Format**: `GITHUB_TOKEN=` - a GitHub personal access token. \
+**Format**: `GITHUB_TOKEN=` - a GitHub personal access token.\
 **Scopes:** `repo, read:org` and `admin:repo_hook.`
 
 ### GitLab SCM token
@@ -299,8 +299,8 @@ GitLab account with `Maintainer` permission.
 
 ### Azure Repositories (TFS) SCM token
 
-**Format**: `AZURE_REPOS_TOKEN=` - an Azure Repos personal access token. \
-**Scopes**: `Custom defined`,  `Code:`  `Read & write`_._
+**Format**: `AZURE_REPOS_TOKEN=` - an Azure Repos personal access token.\
+**Scopes**: `Custom defined`, `Code:` `Read & write`_._
 
 ### Bitbucket Server/Data Center SCM token
 

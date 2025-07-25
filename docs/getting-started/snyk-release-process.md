@@ -8,7 +8,7 @@ Not all features follow all these stages, and timelines for each feature to move
 
 ## Alpha
 
-<table><thead><tr><th width="240">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>Internal release only.</td><td>Snyk internal users, potentially some design partners.</td><td>Controlled </td><td>No docs provided.</td></tr></tbody></table>
+<table><thead><tr><th width="240">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>Internal release only.</td><td>Snyk internal users, potentially some design partners.</td><td>Controlled</td><td>No docs provided.</td></tr></tbody></table>
 
 ## Closed Beta
 
@@ -19,10 +19,10 @@ Not all features follow all these stages, and timelines for each feature to move
 * [Configure PR Checks](../scan-with-snyk/pull-requests/pull-request-checks/configure-pull-request-checks.md)
 * [Publish Snyk Code CLI results](../snyk-cli/scan-and-maintain-projects-using-the-cli/snyk-cli-for-snyk-code/publish-snyk-code-cli-results-and-ignore-issues.md)
 * Third-party integrations for Snyk AppRisk:
-  * [Nightfall](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#nightfall-setup-guide)
-  * [Dynatrace](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#dynatrace-setup-guide)
-  * [Sysdig](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#sysdig-setup-guide)
-  * [Orca Security](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#orca-security-setup-guide)
+  * [Nightfall](../integrate-with-snyk/connect-a-third-party-integration.md#nightfall-setup-guide)
+  * [Dynatrace](../integrate-with-snyk/connect-a-third-party-integration.md#dynatrace-setup-guide)
+  * [Sysdig](../integrate-with-snyk/connect-a-third-party-integration.md#sysdig-setup-guide)
+  * [Orca Security](../integrate-with-snyk/connect-a-third-party-integration.md#orca-security-setup-guide)
 
 ## Early Access
 
@@ -33,7 +33,7 @@ Not all features follow all these stages, and timelines for each feature to move
 * [Snyk GitHub Cloud App](../scm-ide-and-ci-cd-integrations/snyk-scm-integrations/github-cloud-app.md)
 *   Projects
 
-    [Automatically created Project collections](../snyk-admin/introduction-to-snyk-projects/automatically-created-project-collections.md)
+    [Automatically created Project collections](../snyk-admin/snyk-projects/automatically-created-project-collections.md)
 * Snyk Code
   * [Snyk Code custom rules](../scan-with-snyk/snyk-code/snyk-code-custom-rules/)
   * [Fix code vulnerabilities automatically](../scan-with-snyk/snyk-code/manage-code-vulnerabilities/fix-code-vulnerabilities-automatically.md)
@@ -48,11 +48,11 @@ Not all features follow all these stages, and timelines for each feature to move
   * [Improved .NET scanning](../supported-languages-package-managers-and-frameworks/.net/improved-.net-scanning.md)
   * [Snyk CLI pnpm support](../supported-languages-package-managers-and-frameworks/javascript/javascript-for-open-source.md#pnpm)
   * [Improved Gradle SCM scanning](../supported-languages-package-managers-and-frameworks/java-and-kotlin/git-repositories-with-maven-and-gradle.md#improved-gradle-scm-scanning-early-access)
-* Third-party integrations for Snyk AppRisk:&#x20;
-  * [Veracode](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#veracode-setup-guide)
-  * [Checkmarx](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#checkmarx-setup-guide)
-  * [SonarQube](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#sonarqube-setup-guide)
-  * [GitGuardian](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md#gitguardian-setup-guide)
+* Third-party integrations for Snyk AppRisk:
+  * [Veracode](../integrate-with-snyk/connect-a-third-party-integration.md#veracode-setup-guide)
+  * [Checkmarx](../integrate-with-snyk/connect-a-third-party-integration.md#checkmarx-setup-guide)
+  * [SonarQube](../integrate-with-snyk/connect-a-third-party-integration.md#sonarqube-setup-guide)
+  * [GitGuardian](../integrate-with-snyk/connect-a-third-party-integration.md#gitguardian-setup-guide)
 * [Issues Analytics](../manage-risk/enterprise-analytics/issues-analytics.md)
 * [Application Analytics](../manage-risk/enterprise-analytics/application-analytics.md)
 
@@ -62,16 +62,16 @@ Not all features follow all these stages, and timelines for each feature to move
 
 ## Deprecated
 
-<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>The feature is available, but use is discouraged. </td><td>Current users only</td><td>Available by default.</td><td>Full public docs, marked-up appropriately.</td></tr></tbody></table>
+<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>The feature is available, but use is discouraged.</td><td>Current users only</td><td>Available by default.</td><td>Full public docs, marked-up appropriately.</td></tr></tbody></table>
 
 ## Maintenance mode
 
-<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>No new development or updates will be made to the feature. </td><td>Current users only</td><td>Available by default.</td><td>Full public docs, marked-up appropriately.</td></tr></tbody></table>
+<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>No new development or updates will be made to the feature.</td><td>Current users only</td><td>Available by default.</td><td>Full public docs, marked-up appropriately.</td></tr></tbody></table>
 
 ## End of support
 
-<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>No new support tickets will be answered. </td><td>Current users only</td><td>Available by default.</td><td>Full public docs, marked-up appropriately.</td></tr></tbody></table>
+<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>No new support tickets will be answered.</td><td>Current users only</td><td>Available by default.</td><td>Full public docs, marked-up appropriately.</td></tr></tbody></table>
 
 ## End of life
 
-<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>The feature is no longer available. </td><td>No users</td><td>Not available</td><td>No docs available</td></tr></tbody></table>
+<table><thead><tr><th width="256">Description</th><th>Available to</th><th>Access</th><th>Docs</th></tr></thead><tbody><tr><td>The feature is no longer available.</td><td>No users</td><td>Not available</td><td>No docs available</td></tr></tbody></table>

@@ -6,7 +6,7 @@
 Regional hosting and data residency are available only for Enterprise plans. For more information, see [Plans and pricing](https://snyk.io/plans).
 {% endhint %}
 
-Data residency allows you to control the region in which Snyk hosts a selected subset of your data. For information about GDPR, see  [How Snyk maintains GDPR compliance](how-snyk-handles-your-data.md#how-snyk-maintains-gdpr-compliance).
+Data residency allows you to control the region in which Snyk hosts a selected subset of your data. For information about GDPR, see [How Snyk maintains GDPR compliance](how-snyk-handles-your-data.md#how-snyk-maintains-gdpr-compliance).
 
 Data residency is available for [Snyk Open Source](../scan-with-snyk/snyk-open-source/), [Snyk Code](../scan-with-snyk/snyk-code/), [Snyk Container](../scan-with-snyk/snyk-container/), and [Snyk IaC](../scan-with-snyk/snyk-iac/). Snyk can host your data in a number of regions.
 
@@ -54,13 +54,13 @@ You must configure your environment to set your region before you authenticate. 
 
 Snyk offers data residency for the following regions:
 
-|                 Region                 |           URL           |
-| :------------------------------------: | :---------------------: |
-|             SNYK-US-01 (US)            |   https://app.snyk.io   |
-|             SNYK-US-02 (US)            |  https://app.us.snyk.io |
-|     SNYK-EU-01 (Germany, Frankfurt)    |  https://app.eu.snyk.io |
-|         SNYK-AU-01 (Australia)         |  https://app.au.snyk.io |
-| SNYK-GOV-01 (Snyk for Government (US)) |  https://app.snykgov.io |
+|                 Region                 |           URL          |
+| :------------------------------------: | :--------------------: |
+|             SNYK-US-01 (US)            |   https://app.snyk.io  |
+|             SNYK-US-02 (US)            | https://app.us.snyk.io |
+|     SNYK-EU-01 (Germany, Frankfurt)    | https://app.eu.snyk.io |
+|         SNYK-AU-01 (Australia)         | https://app.au.snyk.io |
+| SNYK-GOV-01 (Snyk for Government (US)) | https://app.snykgov.io |
 
 Single-tenant deployments may support more regions than the ones listed here, subject to validation of architectural service supportability by Snyk engineering.
 
@@ -80,14 +80,14 @@ SNYK-US-02, EU, and AU data center Snyk accounts are available only with the pur
 
 Snyk offers almost all the same features, support, and performance in the regional multi- and single-tenant regions as in SNYK-US-01. For an up-to-date overview of feature parity across regions, contact your account team.
 
-All Snyk AppRisk features are supported in all multi-tenant environments, while for the single-tenant environment you need to check the availability with your account team.&#x20;
+All Snyk AppRisk features are supported in all multi-tenant environments, while for the single-tenant environment you need to check the availability with your account team.
 
 ## Integration considerations
 
 There are special considerations when you set up specific integrations in your Snyk ecosystem.
 
-* If you choose to install the Snyk Runtime Sensor using a Helm chart, you must provide the Snyk API base URL. You can find all the necessary details under step 5 of the [Using a Helm chart](../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/snyk-runtime-sensor.md#using-a-helm-chart) section of the Snyk Runtime Sensor documentation page.&#x20;
-* If you choose to set up third-party integrations, verify whether you need to specify the base API URL of the third-party&#x20;
+* If you choose to install the Snyk Runtime Sensor using a Helm chart, you must provide the Snyk API base URL. You can find all the necessary details under step 5 of the [Using a Helm chart](../integrate-with-snyk/snyk-runtime-sensor.md#using-a-helm-chart) section of the Snyk Runtime Sensor documentation page.
+* If you choose to set up third-party integrations, verify whether you need to specify the base API URL of the third-party
 
 ## Regional URLs
 
@@ -119,7 +119,7 @@ Use the reference documentation with the following base URLs:
 
 **SNYK-US-01** - **API v1** : https://api.snyk.io/v1/ and **REST** API: https://api.snyk.io/rest/
 
-**SNYK-US-02**- **API v1:** https://api.us.snyk.io/v1/ and **REST** API: https://api.us.snyk.io/rest/&#x20;
+**SNYK-US-02**- **API v1:** https://api.us.snyk.io/v1/ and **REST** API: https://api.us.snyk.io/rest/
 
 **SNYK-EU-01 - API v1**: https://api.eu.snyk.io/v1/ and **REST** API: https://api.eu.snyk.io/rest/
 
@@ -127,11 +127,11 @@ Use the reference documentation with the following base URLs:
 
 ### CLI and CI pipeline URLs
 
-Both the CLI and CI running CLI must be configured to run against your instance.&#x20;
+Both the CLI and CI running CLI must be configured to run against your instance.
 
-To do this, for [CLI v1.1293.0](https://updates.snyk.io/announcing-snyk-cli-v1-1293-0-299452) and later versions, use the  [snyk config environment command](../snyk-cli/commands/config-environment.md), for example:
+To do this, for [CLI v1.1293.0](https://updates.snyk.io/announcing-snyk-cli-v1-1293-0-299452) and later versions, use the [snyk config environment command](../snyk-cli/commands/config-environment.md), for example:
 
-[`snyk config environment SNYK-US-02`](#user-content-fn-1)[^1]
+`snyk config environment SNYK-US-02`
 
 The [Supported environment URL mappings](../snyk-cli/commands/config-environment.md#supported-environment-urls-mappings) are listed in the `snyk config environment` help.
 
@@ -144,7 +144,7 @@ Visual Studio - 1.1.21\
 IntelliJ - 2.4.32
 {% endhint %}
 
-Snyk IDE extensions have modifiable options similar to the CLI and must be configured to use the appropriate endpoint. In the extension settings for Snyk in your IDE, set **Custom Endpoint** to the appropriate value for SNYK-US-02,  SNYK-EU-01, and SNYK-AU-01 as follows.
+Snyk IDE extensions have modifiable options similar to the CLI and must be configured to use the appropriate endpoint. In the extension settings for Snyk in your IDE, set **Custom Endpoint** to the appropriate value for SNYK-US-02, SNYK-EU-01, and SNYK-AU-01 as follows.
 
 **SNYK-US-01** - `https://api.snyk.io` (no configuration required)
 
@@ -221,5 +221,3 @@ Then add an extra variable to the `values-customer-settings.yml`:
 **SNYK-AU-01**\
 `deeproxy:`\
 `verificationEndpoint: "https://api.au.snyk.io/v1/validate/token/snyk-to-deepcode-proxy-validation"`
-
-[^1]: 

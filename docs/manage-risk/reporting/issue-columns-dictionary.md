@@ -32,11 +32,11 @@ Describes the main attributes of the issue.
 
 The vulnerability details refer to various issue attributes that are being defined by Snyk, Mitre, NVD, or any other trusted security organization.
 
-* **ATTACK VECTOR -** Represents the context by which vulnerability exploitation is possible. For more details about the attack vector and its values (Network, Adjacent, Local, Physical), see the [specification document](https://www.first.org/cvss/specification-document).&#x20;
+* **ATTACK VECTOR -** Represents the context by which vulnerability exploitation is possible. For more details about the attack vector and its values (Network, Adjacent, Local, Physical), see the [specification document](https://www.first.org/cvss/specification-document).
 * **CVE** - Mitre CVE ID
 * **CWE** - Mitre CWE ID
 * **EPSS SCORE** - The probability of exploitation in the wild in the next 30 days.
-* **EPSS PERCENTILE** -  The proportion of all vulnerabilities with the same or lower EPSS score.
+* **EPSS PERCENTILE** - The proportion of all vulnerabilities with the same or lower EPSS score.
 * **EXPLOIT MATURITY** - Represents the existence and maturity of public exploits validated by Snyk. For details, see [View exploits in Projects](../prioritize-issues-for-fixing/view-exploits.md#view-exploits-in-projects). The allowed values include:
   * **Mature:** Snyk has a published code exploit for this vulnerability.
   * **Proof of concept:** Snyk has a proof-of-concept or detailed explanation of how to exploit this vulnerability. Proof of concept vulnerability patches cannot be disabled and will appear in fix PRs where they are found.
@@ -62,13 +62,13 @@ The context columns help to understand the wider meaning of the issue’s impact
 
 * **ORG NAME** - The Snyk Organization name.
 * **PROJECT COLLECTION** - Project collections are static collections of Projects.
-* **PROJECT CRITICALITY** - Business criticality of the Project. For details, see  [Project attributes](../../snyk-admin/snyk-projects/project-attributes.md).
-* **PROJECT ENVIRONMENT** - The environment of the Project. For details, see  [Project attributes](../../snyk-admin/snyk-projects/project-attributes.md).
-* **PROJECT LIFECYCLE** - Project’s lifecycle. For details, see  [Project attributes](../../snyk-admin/snyk-projects/project-attributes.md).
+* **PROJECT CRITICALITY** - Business criticality of the Project. For details, see [Project attributes](../../snyk-admin/snyk-projects/project-attributes.md).
+* **PROJECT ENVIRONMENT** - The environment of the Project. For details, see [Project attributes](../../snyk-admin/snyk-projects/project-attributes.md).
+* **PROJECT LIFECYCLE** - Project’s lifecycle. For details, see [Project attributes](../../snyk-admin/snyk-projects/project-attributes.md).
 * **PROJECT NAME** - The Project name.
 * **PROJECT ORIGIN** - The Project’s source of integration; can be the name of the originating SCM, Container registry, and so on.
 * **PROJECT OWNER** - A user that is defined as the Project’s owner.
-* **PROJECT TAGS** - Tags that are associated with the Project. For details, see [Project tags](../../snyk-admin/introduction-to-snyk-projects/project-tags.md).
+* **PROJECT TAGS** - Tags that are associated with the Project. For details, see [Project tags](../../snyk-admin/snyk-projects/project-tags.md).
 * **PROJECT TARGET** - The Target name.
 * **PROJECT TARGET REFERENCE** - Specify a reference that differentiates this Project, for example, a branch name or version. For details, see [Group Projects by branch or version for monitoring](../../snyk-cli/scan-and-maintain-projects-using-the-cli/group-projects-by-branch-or-version-for-monitoring.md).
 * **PROJECT TYPE** - The package manager of the Project.

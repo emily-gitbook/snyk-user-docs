@@ -1,6 +1,6 @@
 # Prioritize issues for fixing
 
-You can find prioritization within Snyk under several names and with different customizations depending on your Snyk plan. The following list presents an overview of all the places where you can find and use prioritization. The outputs can vary depending on the type of priority you choose to use.&#x20;
+You can find prioritization within Snyk under several names and with different customizations depending on your Snyk plan. The following list presents an overview of all the places where you can find and use prioritization. The outputs can vary depending on the type of priority you choose to use.
 
 * [Prioritization at the Project level](./#prioritization-at-the-project-level)
 * [Prioritization within Reporting](./#prioritization-within-reporting)
@@ -9,7 +9,7 @@ You can find prioritization within Snyk under several names and with different c
 
 You can focus solely on one type of prioritization, or you can combine them for a more complex and targeted focus on the issues that require your immediate attention. You can use prioritization for your vulnerabilities, your security program, and your coverage (from a security perspective), or you can use it in the Reporting section of your Projects.\
 \
-For example, if you only prioritize the Projects from your repositories, then the list of issues is more general. However, if you choose to use Prioritization with Insights, available for Snyk AppRisk Pro, the analyzed issues are filtered through several other factors (risk factors, assets) all contributing to the creation of an issues priority list based on more complex and targeted filters, allowing you to customize the prioritization based on your needs.&#x20;
+For example, if you only prioritize the Projects from your repositories, then the list of issues is more general. However, if you choose to use Prioritization with Insights, available for Snyk AppRisk Pro, the analyzed issues are filtered through several other factors (risk factors, assets) all contributing to the creation of an issues priority list based on more complex and targeted filters, allowing you to customize the prioritization based on your needs.
 
 ## Prioritization at the Project level
 
@@ -25,7 +25,7 @@ Prioritize Projects based on these filters:
 * Without issues: displays only Projects without issues.
 * Integrations: displays the integrated Git repositories imported to Snyk.
 
-You can use this type of prioritization with any of the following Snyk Plans:&#x20;
+You can use this type of prioritization with any of the following Snyk Plans:
 
 * Snyk Free/Team Plan
 * Snyk Enterprise Plan
@@ -36,15 +36,15 @@ You can prioritize your Projects at the Snyk Group level and Snyk Organization l
 
 ### Prioritize the issues within a Project
 
-[Prioritize the issues](../../snyk-admin/snyk-projects/view-project-issues-fixes-and-dependencies.md) within a Project by using any of the following custom filters:&#x20;
+[Prioritize the issues](../../snyk-admin/snyk-projects/view-project-issues-fixes-and-dependencies.md) within a Project by using any of the following custom filters:
 
 * Issue type
-* Severity&#x20;
+* Severity
 * Fixability
 * Exploit Maturity
 * Status
 
-You can use this type of prioritization with any of the following Snyk Plans:&#x20;
+You can use this type of prioritization with any of the following Snyk Plans:
 
 * Snyk Free/Team Plan
 * Snyk Enterprise Plan
@@ -57,13 +57,13 @@ You can prioritize your Projects at the Snyk Organization level.
 
 ### Priority Score and Risk Score prioritization
 
-You can use both Priority and Risk Scores as a prioritization tool when you are using the Reporting option from the Snyk Web UI and you select the desired Projects from the filters list.&#x20;
+You can use both Priority and Risk Scores as a prioritization tool when you are using the Reporting option from the Snyk Web UI and you select the desired Projects from the filters list.
 
 The Priority Score focuses on urgency and ranks security issues based on various criteria, such as CVSS score, trending vulnerabilities, reachability, availability of exploits, and other factors. On the other hand, the Risk Score assesses the overall risk associated with vulnerabilities by considering both their severity and the context of the application, such as the likelihood of exploitation and the potential impact on the system. While the Priority Score assists teams in addressing the most urgent threats, the Risk Score offers a comprehensive view of the security posture.
 
 #### Priority Score
 
-[Priority Score](priority-score.md) helps teams quickly identify and address critical security vulnerabilities by ranking them based on urgency.&#x20;
+[Priority Score](priority-score.md) helps teams quickly identify and address critical security vulnerabilities by ranking them based on urgency.
 
 Priority Score is determined based on a number of industry-standard criteria:
 
@@ -73,7 +73,7 @@ Priority Score is determined based on a number of industry-standard criteria:
 * availability of exploits
 * other factors
 
-You can use this type of prioritization with any of the following Snyk Plans:&#x20;
+You can use this type of prioritization with any of the following Snyk Plans:
 
 * Snyk Free/Team Plan
 * Snyk Enterprise Plan
@@ -86,7 +86,7 @@ You can use the Priority Score at the Snyk Organization level.
 
 [Risk Score](risk-score.md) assesses the potential impact of vulnerabilities, prioritizing those with severe consequences. You can use the Risk Score to perform automatic risk analysis for each security issue based on the potential impact and likelihood of exploitability.
 
-You can use this type of prioritization with any of the following Snyk Plans:&#x20;
+You can use this type of prioritization with any of the following Snyk Plans:
 
 * Snyk Free/Team Plan
 * Snyk Enterprise Plan
@@ -97,9 +97,9 @@ You can use the Risk Score at the Snyk Organization level.
 
 ### Prioritize issues when using reports
 
-You can [prioritize issues when using reports](../../manage-issues/reporting/available-snyk-reports.md) to generate reports across an Organization or Group.
+You can [prioritize issues when using reports](../reporting/available-snyk-reports.md) to generate reports across an Organization or Group.
 
-You can use this type of prioritization with any of the following Snyk Plans:&#x20;
+You can use this type of prioritization with any of the following Snyk Plans:
 
 * Snyk Enterprise Plan
 * Snyk AppRisk Essentials
@@ -109,16 +109,16 @@ You can use the Risk Score at the Snyk Group or Snyk Organization level.
 
 ## Prioritization based on risk
 
-[Prioritization with Insights](prioritization-for-snyk-apprisk.md) for Snyk AppRisk - Snyk AppRisk uses holistic application intelligence to help you identify and prioritize container, code, and open source issues based on the risk they pose to your application. You can prioritize issues based on asset classification as defined in Snyk AppRisk policies.&#x20;
+[Prioritization with Insights](prioritization-for-snyk-apprisk.md) for Snyk AppRisk - Snyk AppRisk uses holistic application intelligence to help you identify and prioritize container, code, and open source issues based on the risk they pose to your application. You can prioritize issues based on asset classification as defined in Snyk AppRisk policies.
 
 You can use Prioritization with Insights to identify and prioritize your Container, Code, and Open Source issues based on the risk they pose to your application. These are the risk factors that you can use:
 
 * Deployed
 * Loaded package
 * OS condition
-* Public facing&#x20;
+* Public facing
 
-You can use this type of prioritization with the following Snyk Plan:&#x20;
+You can use this type of prioritization with the following Snyk Plan:
 
 * Snyk AppRisk Pro
 
@@ -132,7 +132,7 @@ Snyk Enterprise Analytics provides a comprehensive overview of your entire appli
 
 [Issue Analytics](../enterprise-analytics/issues-analytics.md) provides a view into the performance of your AppSec program. You can use Enterprise Analytics to better understand the strengths and weaknesses of your program, identify where successful practices can be discerned, and uncover the largest opportunities for improvement that warrant investment.
 
-You can use this type of prioritization with the following Snyk Plan:&#x20;
+You can use this type of prioritization with the following Snyk Plan:
 
 * Snyk Enterprise
 * Snyk AppRisk Pro
@@ -147,7 +147,7 @@ If you have both Snyk Enterprise and Snyk AppRisk Pro plans, then Enterprise Ana
 
 [Application Analytics](../enterprise-analytics/application-analytics.md) for Snyk AppRisk helps you assess your AppSec program from a top-down approach. It allows you to review applications, teams, and asset classes, and then focus on specific assets. You can improve security by identifying areas for enhancement, recognizing risks, and addressing blind spots. The tool retrieves data from all available groups for the tenant.
 
-Prioritize the displayed data by using the available filters, dimension views, and specific timeframes. \
+Prioritize the displayed data by using the available filters, dimension views, and specific timeframes.\
 \
 Filters:
 
@@ -161,7 +161,7 @@ View by:
 * Application
 * Owner
 
-You can use this type of prioritization with the following Snyk Plan:&#x20;
+You can use this type of prioritization with the following Snyk Plan:
 
 * Snyk AppRisk Pro
 
@@ -198,10 +198,7 @@ See [Prioritize issues in the Snyk Web UI](https://learn.snyk.io/lesson/prioriti
 You can use many features of [Snyk Projects](../../snyk-admin/snyk-projects/) to help you focus on priority issues:
 
 * [View Project information](../../snyk-admin/snyk-projects/project-information.md).
-* Apply and remove [Project attributes ](../../snyk-admin/snyk-projects/project-attributes.md)and [Project tags](../../snyk-admin/introduction-to-snyk-projects/project-tags.md) to characterize Projects.
+* Apply and remove [Project attributes ](../../snyk-admin/snyk-projects/project-attributes.md)and [Project tags](../../snyk-admin/snyk-projects/project-tags.md) to characterize Projects.
 * Look at [Project collections groupings](../../snyk-admin/snyk-projects/project-collections-groupings/).
 * [View Project issues, fixes, and dependencies](../../snyk-admin/snyk-projects/view-project-issues-fixes-and-dependencies.md).
 * [View Project settings](../../snyk-admin/snyk-projects/view-and-edit-project-settings.md).
-
-
-

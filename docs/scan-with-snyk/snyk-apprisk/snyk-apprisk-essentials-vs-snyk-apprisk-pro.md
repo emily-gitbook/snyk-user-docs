@@ -1,6 +1,6 @@
 # Snyk AppRisk Essentials vs Snyk AppRisk Pro
 
-Snyk AppRisk helps AppSec teams implement, manage, and scale a modern AppSec program. Snyk AppRisk is available as two separate offerings: Snyk AppRisk Essentials and Snyk AppRisk Pro. \
+Snyk AppRisk helps AppSec teams implement, manage, and scale a modern AppSec program. Snyk AppRisk is available as two separate offerings: Snyk AppRisk Essentials and Snyk AppRisk Pro.\
 \
 Snyk AppRisk Essentials helps AppSec teams better operationalize and scale Snyk usage with visibility into code-based assets and security coverage management and is included with all Snyk Enterprise plans. Snyk AppRisk Essentials includes support for integrations with developer portals such as Backstage and Harness and CMDBs such as ServiceNow to bring together context on application ownership and other metadata relevant to visibility and remediation use cases.
 
@@ -23,4 +23,4 @@ Snyk AppRisk Essentials is ideal for AppSec teams looking to streamline their de
 
 ## When and why to use Snyk AppRisk Pro
 
-Snyk AppRisk Pro offers a comprehensive view of both code and runtime environments, and seamlessly integrates with third-party tools for a complete security perspective. Snyk AppRisk Pro is a great solution if you want to also use [third-party integrations](../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md). Covering the entire development to runtime spectrum, it incorporates application context, covering the entire development to runtime spectrum. With Snyk AppRisk Pro you can take action with confidence, knowing that you are making informed decisions based on relevant data. Through the use of automation and comprehensive metrics, you can attain exceptional security coverage and risk management, leading to the ongoing success of your program.
+Snyk AppRisk Pro offers a comprehensive view of both code and runtime environments, and seamlessly integrates with third-party tools for a complete security perspective. Snyk AppRisk Pro is a great solution if you want to also use [third-party integrations](../../integrate-with-snyk/connect-a-third-party-integration.md). Covering the entire development to runtime spectrum, it incorporates application context, covering the entire development to runtime spectrum. With Snyk AppRisk Pro you can take action with confidence, knowing that you are making informed decisions based on relevant data. Through the use of automation and comprehensive metrics, you can attain exceptional security coverage and risk management, leading to the ongoing success of your program.

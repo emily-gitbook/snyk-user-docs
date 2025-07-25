@@ -2,7 +2,7 @@
 
 You can ignore a vulnerability or open-source license issue if you do not need to fix it and want to avoid seeing the issue in scan results. You can ignore issues temporarily or permanently and set ignores individually or as actions. By using Snyk ignores you can display results only for issues you need to fix
 
-&#x20;For Open Source details, see [How to set ignores](./#how-to-set-ignores). This information provides a useful background for using ignores with other Snyk scanning methods. For more information, see the following sections on this page:
+For Open Source details, see [How to set ignores](./#how-to-set-ignores). This information provides a useful background for using ignores with other Snyk scanning methods. For more information, see the following sections on this page:
 
 * [Ignore issues in Snyk Code](./#ignore-issues-in-snyk-code)
 * [Ignore issues in Snyk Container](./#ignore-issues-in-snyk-container)
@@ -96,7 +96,7 @@ The same repository imported from the SCM is considered to be a different Projec
 
 ### Use the .snyk file to ignore issues
 
-For Open Source Projects, you can ignore the vulnerability by creating a `.snyk` YAML file or  modifying the existing `.snyk` file.
+For Open Source Projects, you can ignore the vulnerability by creating a `.snyk` YAML file or modifying the existing `.snyk` file.
 
 <figure><img src="../../../.gitbook/assets/screen+shot+2017-05-10+at+11.16.57+am.png" alt="A .snyk file"><figcaption><p>A .snyk file</p></figcaption></figure>
 
@@ -183,6 +183,6 @@ The **Admin users only** Ignore setting applies only to Snyk Organization Admins
 
 ## Using ignores in reports
 
-If you have access to the Snyk Reporting feature, and use the new [Snyk Reports](../../../manage-issues/reporting/available-snyk-reports.md), you can display an Issue Status report showing only the open, ignored issues.
+If you have access to the Snyk Reporting feature, and use the new [Snyk Reports](../../reporting/available-snyk-reports.md), you can display an Issue Status report showing only the open, ignored issues.
 
-If you use the [Legacy reports](../../../manage-issues/reporting/legacy-reports/), you can see an overview of how many issues in the Projects in your Organization are ignored, with an option to filter the issues so you can drill down into each one. If the issue was ignored in the Snyk Web UI, Snyk includes a credit so you can see who initiated it.
+If you use the [Legacy reports](../../reporting/legacy-reports/), you can see an overview of how many issues in the Projects in your Organization are ignored, with an option to filter the issues so you can drill down into each one. If the issue was ignored in the Snyk Web UI, Snyk includes a credit so you can see who initiated it.

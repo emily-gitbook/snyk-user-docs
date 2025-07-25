@@ -1,7 +1,5 @@
 # API endpoints index and notes
 
-
-
 {% hint style="info" %}
 This index and notes section of the documentation provides, in addition to this index, [solutions for specific use cases](solutions-for-specific-use-cases.md), [scenarios for using Snyk APIs](scenarios-for-using-the-snyk-api.md), and pages with detailed information about using Snyk API endpoints:
 
@@ -22,7 +20,7 @@ This index includes the categories and names of REST GA and beta and V1 API endp
 
 ## AccessRequests (beta)
 
-### [Get access requests](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/self/access\_requests)
+### [Get access requests](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/self/access_requests)
 
 ## Apps
 
@@ -30,105 +28,105 @@ This index includes the categories and names of REST GA and beta and V1 API endp
 
 ### [Get a list of apps that act on your behalf](../reference/apps.md#self-apps)
 
-### [Revoke an app](../reference/apps.md#self-apps-app\_id)
+### [Revoke an app](../reference/apps.md#self-apps-app_id)
 
-### [Get a list of active OAuth sessions for the app](../reference/apps.md#self-apps-app\_id-sessions)
+### [Get a list of active OAuth sessions for the app](../reference/apps.md#self-apps-app_id-sessions)
 
-### [Revoke an active user app session](../reference/apps.md#self-apps-app\_id-sessions-session\_id)
+### [Revoke an active user app session](../reference/apps.md#self-apps-app_id-sessions-session_id)
 
 ### [Get a list of apps installed for a user](../reference/apps.md#self-apps-installs)
 
-### [Revoke access for an app by install ID](../reference/apps.md#self-apps-installs-install\_id)
+### [Revoke access for an app by install ID](../reference/apps.md#self-apps-installs-install_id)
 
 **Replaces:** DEPRECATED Revoke app bot authorization
 
-### DEPRECATED [Create a new app for an organization](../reference/apps.md#orgs-org\_id-apps)
+### DEPRECATED [Create a new app for an organization](../reference/apps.md#orgs-org_id-apps)
 
 **Replaced by:** Create a new Snyk App for an organization
 
 **More information:** [Create a Snyk App using the Snyk API](../how-to-use-snyk-apps-apis/create-a-snyk-app-using-the-snyk-api.md)
 
-### [Get a list of apps created by an organization](../reference/apps.md#orgs-org\_id-apps-1)
+### [Get a list of apps created by an organization](../reference/apps.md#orgs-org_id-apps-1)
 
 **Replaces:** DEPRECATED Get a list of apps created by an organization
 
-### DEPRECATED [Update app attributes that are name, redirect URIs, and access token time to live](../reference/apps.md#orgs-org\_id-apps-client\_id)
+### DEPRECATED [Update app attributes that are name, redirect URIs, and access token time to live](../reference/apps.md#orgs-org_id-apps-client_id)
 
 **Replaced by:** Update app creation attributes such as name, redirect URIs, and access token time to live using the App ID
 
-### DEPRECATED [Get an app by client id](../reference/apps.md#orgs-org\_id-apps-client\_id-1)
+### DEPRECATED [Get an app by client id](../reference/apps.md#orgs-org_id-apps-client_id-1)
 
 **Replaced by:** Get a Snyk App by its App ID
 
-### DEPRECATED [Delete an app](../reference/apps.md#orgs-org\_id-apps-client\_id-2)
+### DEPRECATED [Delete an app](../reference/apps.md#orgs-org_id-apps-client_id-2)
 
 **Replaced by:** Delete an app by its App ID
 
-### DEPRECATED [Manage client secrets for an app](../reference/apps.md#orgs-org\_id-apps-client\_id-secrets)
+### DEPRECATED [Manage client secrets for an app](../reference/apps.md#orgs-org_id-apps-client_id-secrets)
 
 **Replaced by:** Manage client secret for non-interactive Snyk App installations
 
-### [Install a Snyk App to this organization](../reference/apps.md#orgs-org\_id-apps-installs)
+### [Install a Snyk App to this organization](../reference/apps.md#orgs-org_id-apps-installs)
 
-### [Get a list of apps installed for an organization](../reference/apps.md#orgs-org\_id-apps-installs-1)
+### [Get a list of apps installed for an organization](../reference/apps.md#orgs-org_id-apps-installs-1)
 
 **Replaces:** DEPRECATED Get a list of app bots authorized to an organization
 
 **More information:** [Slack app](../../integrate-with-snyk/jira-and-slack-integrations/slack-app.md) (Find the Slack App Bot ID)
 
-### [Revoke app authorization for a Snyk organization](../reference/apps.md#orgs-org\_id-apps-installs-install\_id)
+### [Revoke app authorization for a Snyk organization](../reference/apps.md#orgs-org_id-apps-installs-install_id)
 
 **See also:** Revoke app authorization for a Snyk Group with install ID
 
-### [Manage client secret for non-interactive Snyk App installations](../reference/apps.md#orgs-org\_id-apps-installs-install\_id-secrets)
+### [Manage client secret for non-interactive Snyk App installations](../reference/apps.md#orgs-org_id-apps-installs-install_id-secrets)
 
-### [Create a new Snyk App for an organization](../reference/apps.md#orgs-org\_id-apps-creations)
+### [Create a new Snyk App for an organization](../reference/apps.md#orgs-org_id-apps-creations)
 
 **Replaces:** DEPRECATED Create a new app for an organization
 
-### DEPRECATED [Get a list of apps created by an organization](../reference/apps.md#orgs-org\_id-apps-creations-1)
+### DEPRECATED [Get a list of apps created by an organization](../reference/apps.md#orgs-org_id-apps-creations-1)
 
 **Replaced by:** Get a list of apps created by an organization
 
 **More information:** [Manage App details](../how-to-use-snyk-apps-apis/manage-app-details.md)
 
-### [Update app creation attributes such as name, redirect URIs, and access token time to live using the App ID](../reference/apps.md#orgs-org\_id-apps-creations-app\_id)
+### [Update app creation attributes such as name, redirect URIs, and access token time to live using the App ID](../reference/apps.md#orgs-org_id-apps-creations-app_id)
 
 **Replaces:** DEPRECATED Update App attributes that are name, redirect URIs, and access token time to live
 
 **More information:** [Manage App details](../how-to-use-snyk-apps-apis/manage-app-details.md)
 
-### [Get a Snyk APP by its App ID](../reference/apps.md#orgs-org\_id-apps-creations-app\_id)
+### [Get a Snyk APP by its App ID](../reference/apps.md#orgs-org_id-apps-creations-app_id)
 
 **Replaces:** DEPRECATED Get an app by client id
 
-### [Delete a Snyk App by its App ID](../reference/apps.md#orgs-org\_id-apps-creations-app\_id-2)
+### [Delete a Snyk App by its App ID](../reference/apps.md#orgs-org_id-apps-creations-app_id-2)
 
 **Replaces:** DEPRECATED Delete an app
 
 **More information:** [Manage App details](../how-to-use-snyk-apps-apis/manage-app-details.md)
 
-### [Manage client secret for the Snyk App](../reference/apps.md#orgs-org\_id-apps-creations-app\_id-secrets)
+### [Manage client secret for the Snyk App](../reference/apps.md#orgs-org_id-apps-creations-app_id-secrets)
 
 **More information:** [Manage App details](../how-to-use-snyk-apps-apis/manage-app-details.md)
 
-### DEPRECATED [Get a list of app bots authorized to an organization](../reference/apps.md#orgs-org\_id-app\_bots)
+### DEPRECATED [Get a list of app bots authorized to an organization](../reference/apps.md#orgs-org_id-app_bots)
 
-**Replaced by:** [Get a list of apps installed for an organization](https://apidocs.snyk.io/?#get-/orgs/-org\_id-/apps/installs)
+**Replaced by:** [Get a list of apps installed for an organization](https://apidocs.snyk.io/?#get-/orgs/-org_id-/apps/installs)
 
-### DEPRECATED [Revoke app bot authorization](../reference/apps.md#orgs-org\_id-app\_bots-bot\_id)
+### DEPRECATED [Revoke app bot authorization](../reference/apps.md#orgs-org_id-app_bots-bot_id)
 
 **Replaced by:** Revoke app authorization for a Snyk Group with install ID
 
-**See also:** [Revoke access for an app by install](https://apidocs.snyk.io/?#delete-/self/apps/installs/-install\_id-)
+**See also:** [Revoke access for an app by install](https://apidocs.snyk.io/?#delete-/self/apps/installs/-install_id-)
 
-### [Install a Snyk App to this group](../reference/apps.md#groups-group\_id-apps-installs)
+### [Install a Snyk App to this group](../reference/apps.md#groups-group_id-apps-installs)
 
-### [Get a list of apps installed for a group](../reference/apps.md#groups-group\_id-apps-installs-1)
+### [Get a list of apps installed for a group](../reference/apps.md#groups-group_id-apps-installs-1)
 
-### [Revoke app authorization for a Snyk Group with install ID](../reference/apps.md#groups-group\_id-apps-installs-install\_id)
+### [Revoke app authorization for a Snyk Group with install ID](../reference/apps.md#groups-group_id-apps-installs-install_id)
 
-### [Manage client secret for non-interactive Snyk App installations](../reference/apps.md#groups-group\_id-apps-installs-install\_id-secrets)
+### [Manage client secret for non-interactive Snyk App installations](../reference/apps.md#groups-group_id-apps-installs-install_id-secrets)
 
 **Replaces:** DEPRECATED Manage client secrets for an app
 
@@ -136,11 +134,11 @@ This index includes the categories and names of REST GA and beta and V1 API endp
 
 **More information**: [Retrieve audit logs of user-initiated activity by API for an Org or Group](../../snyk-admin/user-management-with-the-api/retrieve-audit-logs-of-user-initiated-activity-by-api-for-an-org-or-group.md)
 
-### [Search Organization audit logs](../reference/audit-logs.md#orgs-org\_id-audit\_logs-search)
+### [Search Organization audit logs](../reference/audit-logs.md#orgs-org_id-audit_logs-search)
 
 **More information:** [Retrieve audit logs of user-initiated activity by API for an Org or Group](../../snyk-admin/user-management-with-the-api/retrieve-audit-logs-of-user-initiated-activity-by-api-for-an-org-or-group.md), [AWS CloudTrail Lake](../../integrate-with-snyk/event-forwarding/aws-cloudtrail-lake.md)
 
-### [Search Group audit logs](../reference/audit-logs.md#groups-group\_id-audit\_logs-search)
+### [Search Group audit logs](../reference/audit-logs.md#groups-group_id-audit_logs-search)
 
 **More information:** [Filter through your audit logs more efficiently with the new GA REST version of the audit logs API](https://updates.snyk.io/filter-through-your-audit-logs-more-efficiently-with-the-new-ga-rest-version-of-the-audit-logs-api-and-api-access-is-now-opt-in-291850) (product update); [Retrieve audit logs of user-initiated activity by API for an Org or Group](../../snyk-admin/user-management-with-the-api/retrieve-audit-logs-of-user-initiated-activity-by-api-for-an-org-or-group.md)
 
@@ -148,77 +146,77 @@ This index includes the categories and names of REST GA and beta and V1 API endp
 
 ### Group level audit logs
 
-Use [Search Group audit logs](../reference/audit-logs.md#groups-group\_id-audit\_logs-search)
+Use [Search Group audit logs](../reference/audit-logs.md#groups-group_id-audit_logs-search)
 
 ### Organization level audit logs
 
-Use [Search Organization audit logs](../reference/audit-logs.md#orgs-org\_id-audit\_logs-search)
+Use [Search Organization audit logs](../reference/audit-logs.md#orgs-org_id-audit_logs-search)
 
 ## Cloud (beta)
 
-### [List Environments](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/cloud/environments)
+### [List Environments](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org_id-/cloud/environments)
 
-### [Create New Environment](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#post-/orgs/-org\_id-/cloud/environments)
+### [Create New Environment](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#post-/orgs/-org_id-/cloud/environments)
 
-### [Delete Environment](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#delete-/orgs/-org\_id-/cloud/environments/-environment\_id-)
+### [Delete Environment](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#delete-/orgs/-org_id-/cloud/environments/-environment_id-)
 
-### [Update Environment](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#patch-/orgs/-org\_id-/cloud/environments/-environment\_id-)
+### [Update Environment](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#patch-/orgs/-org_id-/cloud/environments/-environment_id-)
 
-### [Generate Cloud Provider Permissions](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#post-/orgs/-org\_id-/cloud/permissions)
+### [Generate Cloud Provider Permissions](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#post-/orgs/-org_id-/cloud/permissions)
 
-### [List Resources](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/cloud/resources)
+### [List Resources](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org_id-/cloud/resources)
 
 [Snyk IaC](../../scan-with-snyk/snyk-iac/) (Use: View an inventory of IaC and cloud resources generated from your IaC files)
 
-### [List Scans](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/cloud/scans)
+### [List Scans](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org_id-/cloud/scans)
 
-### [Create Scan](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#post-/orgs/-org\_id-/cloud/scans)
+### [Create Scan](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#post-/orgs/-org_id-/cloud/scans)
 
-### [Get scan](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/cloud/scans/-scan\_id-)
+### [Get scan](https://apidocs.snyk.io/?beta=\&version=2024-07-10%7Ebeta#get-/orgs/-org_id-/cloud/scans/-scan_id-)
 
 ## Collection
 
 **More information:** [Project collections groupings](../../snyk-admin/snyk-projects/project-collections-groupings/)
 
-### [Create a collection](../reference/collection.md#orgs-org\_id-collections)
+### [Create a collection](../reference/collection.md#orgs-org_id-collections)
 
-### [Get collections](../reference/collection.md#orgs-org\_id-collections-1)
+### [Get collections](../reference/collection.md#orgs-org_id-collections-1)
 
-### [Edit a collection](../reference/collection.md#orgs-org\_id-collections-collection\_id)
+### [Edit a collection](../reference/collection.md#orgs-org_id-collections-collection_id)
 
-### [Get a collection](../reference/collection.md#orgs-org\_id-collections-collection\_id-1)
+### [Get a collection](../reference/collection.md#orgs-org_id-collections-collection_id-1)
 
-### [Delete a collection](../reference/collection.md#orgs-org\_id-collections-collection\_id-2)
+### [Delete a collection](../reference/collection.md#orgs-org_id-collections-collection_id-2)
 
-### [Add projects to a collection](../reference/collection.md#orgs-org\_id-collections-collection\_id-relationships-projects)
+### [Add projects to a collection](../reference/collection.md#orgs-org_id-collections-collection_id-relationships-projects)
 
-### [Get projects from the specified collection](../reference/collection.md#orgs-org\_id-collections-collection\_id-relationships-projects-1)
+### [Get projects from the specified collection](../reference/collection.md#orgs-org_id-collections-collection_id-relationships-projects-1)
 
-### [Remove projects from a collection](../reference/collection.md#orgs-org\_id-collections-collection\_id-relationships-projects-2)
+### [Remove projects from a collection](../reference/collection.md#orgs-org_id-collections-collection_id-relationships-projects-2)
 
 ## ContainerImage
 
-### [List instances of container image](../reference/containerimage.md#orgs-org\_id-container\_images)
+### [List instances of container image](../reference/containerimage.md#orgs-org_id-container_images)
 
-### [Get instance of container image](../reference/containerimage.md#orgs-org\_id-container\_images-image\_id)
+### [Get instance of container image](../reference/containerimage.md#orgs-org_id-container_images-image_id)
 
-### [List instances of image target references for a container image](../reference/containerimage.md#orgs-org\_id-container\_images-image\_id-relationships-image\_target\_refs)
+### [List instances of image target references for a container image](../reference/containerimage.md#orgs-org_id-container_images-image_id-relationships-image_target_refs)
 
 ## Custom Base Images
 
 **More information:** [Use Custom Base Image Recommendations](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/)
 
-### [Create a Custom Base Image from an existing container project](../reference/custom-base-images.md#custom\_base\_images)
+### [Create a Custom Base Image from an existing container project](../reference/custom-base-images.md#custom_base_images)
 
-**More information:** [Use Custom Base Image Recommendations](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/); note the section  [Mark the created Project as a custom base image](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/#mark-the-created-project-as-a-custom-base-image); [Versioning schema for custom base images](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/versioning-schema-for-custom-base-images.md)
+**More information:** [Use Custom Base Image Recommendations](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/); note the section [Mark the created Project as a custom base image](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/#mark-the-created-project-as-a-custom-base-image); [Versioning schema for custom base images](../../scan-with-snyk/snyk-container/use-snyk-container/use-custom-base-image-recommendations/versioning-schema-for-custom-base-images.md)
 
-### [Get a custom base image collection](../reference/custom-base-images.md#custom\_base\_images-1)
+### [Get a custom base image collection](../reference/custom-base-images.md#custom_base_images-1)
 
-### [Update a custom base image](../reference/custom-base-images.md#custom\_base\_images-custombaseimage\_id)
+### [Update a custom base image](../reference/custom-base-images.md#custom_base_images-custombaseimage_id)
 
-### [Get a custom base image](../reference/custom-base-images.md#custom\_base\_images-custombaseimage\_id-1)
+### [Get a custom base image](../reference/custom-base-images.md#custom_base_images-custombaseimage_id-1)
 
-### [Delete a custom base image](../reference/custom-base-images.md#custom\_base\_images-custombaseimage\_id-2)
+### [Delete a custom base image](../reference/custom-base-images.md#custom_base_images-custombaseimage_id-2)
 
 ## Dependencies (v1)
 
@@ -234,15 +232,15 @@ Use [Search Organization audit logs](../reference/audit-logs.md#orgs-org\_id-aud
 
 ### [Get all groups](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups)
 
-### [Get a group](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups/-group\_id-)
+### [Get a group](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups/-group_id-)
 
 **More information:** [Org and group identification for Projects](organization-and-group-identification-for-projects-using-the-api.md)
 
-### [Get all SSO connections for a group](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups/-group\_id-/sso\_connections)
+### [Get all SSO connections for a group](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups/-group_id-/sso_connections)
 
-### [Get all users using a given SSO connection](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups/-group\_id-/sso\_connections/-sso\_id-/users)
+### [Get all users using a given SSO connection](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/groups/-group_id-/sso_connections/-sso_id-/users)
 
-### [Delete a user from a Group SSO connection](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#delete-/groups/-group\_id-/sso\_connections/-sso\_id-/users/-user\_id-)
+### [Delete a user from a Group SSO connection](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#delete-/groups/-group_id-/sso_connections/-sso_id-/users/-user_id-)
 
 **More information:** [Remove members from Groups and Orgs using the API](../../snyk-admin/user-management-with-the-api/remove-members-from-groups-and-orgs-using-the-api.md); [Retrieve audit logs of user-initiated activity by API for an Org or Group](../../snyk-admin/user-management-with-the-api/retrieve-audit-logs-of-user-initiated-activity-by-api-for-an-org-or-group.md)
 
@@ -250,11 +248,11 @@ Use [Search Organization audit logs](../reference/audit-logs.md#orgs-org\_id-aud
 
 ### [List all tags in a group](../reference/groups-v1.md#group-groupid-tags)
 
-**More information**: [Project tags](../../snyk-admin/introduction-to-snyk-projects/project-tags.md)
+**More information**: [Project tags](../../snyk-admin/snyk-projects/project-tags.md)
 
 ### [Delete tag from group](../reference/groups-v1.md#group-groupid-tags-delete)
 
-**More information:** [Project tags](../../snyk-admin/introduction-to-snyk-projects/project-tags.md)
+**More information:** [Project tags](../../snyk-admin/snyk-projects/project-tags.md)
 
 ### [Update group settings](../reference/groups-v1.md#group-groupid-settings)
 
@@ -280,13 +278,13 @@ Use [Search Organization audit logs](../reference/audit-logs.md#orgs-org\_id-aud
 
 **More information:** [Use a remote IaC custom rules bundle](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/use-iac-custom-rules-with-cli/use-a-remote-iac-custom-rules-bundle.md)
 
-### [Get the Infrastructure as Code Settings for a group](../reference/iacsettings.md#orgs-org\_id-settings-iac-1)
+### [Get the Infrastructure as Code Settings for a group](../reference/iacsettings.md#orgs-org_id-settings-iac-1)
 
-### [Update the Infrastructure as Code Settings for a group](../reference/iacsettings.md#groups-group\_id-settings-iac)
+### [Update the Infrastructure as Code Settings for a group](../reference/iacsettings.md#groups-group_id-settings-iac)
 
-**More information:** [Use a remote IaC custom rules bundle](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/use-iac-custom-rules-with-cli/use-a-remote-iac-custom-rules-bundle.md), [IaC custom rules within a pipeline](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/iac-custom-rules-within-a-pipeline.md);[Use a remote IaC custom rules bundle](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/use-iac-custom-rules-with-cli/use-a-remote-iac-custom-rules-bundle.md);&#x20;
+**More information:** [Use a remote IaC custom rules bundle](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/use-iac-custom-rules-with-cli/use-a-remote-iac-custom-rules-bundle.md), [IaC custom rules within a pipeline](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/iac-custom-rules-within-a-pipeline.md);[Use a remote IaC custom rules bundle](../../scan-with-snyk/snyk-iac/build-your-own-iac-custom-rules/current-iac-custom-rules/use-iac-custom-rules-with-cli/use-a-remote-iac-custom-rules-bundle.md);
 
-### [Get the Infrastructure as Code Settings for a group](../reference/iacsettings.md#groups-group\_id-settings-iac-1)
+### [Get the Infrastructure as Code Settings for a group](../reference/iacsettings.md#groups-group_id-settings-iac-1)
 
 ## Ignores (v1)
 
@@ -354,31 +352,31 @@ The poll results return a message per manifest processed, either `success: true`
 
 See also [Invite users](../reference/organizations-v1.md#org-orgid-invite).
 
-### [Invite a user to an organization](../reference/invites.md#orgs-org\_id-invites)
+### [Invite a user to an organization](../reference/invites.md#orgs-org_id-invites)
 
-### [List pending user invitation to an organization](../reference/invites.md#orgs-org\_id-invites-1)
+### [List pending user invitation to an organization](../reference/invites.md#orgs-org_id-invites-1)
 
-### [Cancel a pending user invitations to an organization](../reference/invites.md#orgs-org\_id-invites-invite\_id)
+### [Cancel a pending user invitations to an organization](../reference/invites.md#orgs-org_id-invites-invite_id)
 
 ## Issues
 
-### [List issues for a package](../reference/issues.md#orgs-org\_id-packages-purl-issues)
+### [List issues for a package](../reference/issues.md#orgs-org_id-packages-purl-issues)
 
 **More information:** [Dart and Flutter](../../supported-languages-package-managers-and-frameworks/dart-and-flutter.md), [Rust](../../supported-languages-package-managers-and-frameworks/rust.md), [Guidance for Snyk for C++ page, Alternate testing options section](../../supported-languages-package-managers-and-frameworks/c-c++/guidance-for-snyk-for-c-c++.md#alternate-testing-options), [Guidance for Java and Kotlin](../../supported-languages-package-managers-and-frameworks/java-and-kotlin/guidance-for-java-and-kotlin.md), [Guidance for JavaScript and Node.js, Unmanaged JavaScript section](../../supported-languages-package-managers-and-frameworks/javascript/best-practices-for-javascript-and-node.js.md#unmanaged-javascript), [List issues for a package page](../how-to-use-snyk-sbom-and-list-issues-apis/list-issues-for-a-package.md)
 
-### [List issues for a given set of packages](../reference/issues.md#orgs-org\_id-packages-issues) (Currently not available to all customers)
+### [List issues for a given set of packages](../reference/issues.md#orgs-org_id-packages-issues) (Currently not available to all customers)
 
-### [Get issues by org ID](../reference/issues.md#orgs-org\_id-issues)
+### [Get issues by org ID](../reference/issues.md#orgs-org_id-issues)
 
-### [Get an issue](../reference/issues.md#orgs-org\_id-issues-issue\_id) (Org)
+### [Get an issue](../reference/issues.md#orgs-org_id-issues-issue_id) (Org)
 
-### [Get issues by group ID](../reference/issues.md#orgs-org\_id-issues-issue\_id)
+### [Get issues by group ID](../reference/issues.md#orgs-org_id-issues-issue_id)
 
 **Note:** Remedies are not included in the response.
 
-More information: [ Reachability](../../manage-risk/prioritize-issues-for-fixing/reachability-analysis.md)
+More information: [Reachability](../../manage-risk/prioritize-issues-for-fixing/reachability-analysis.md)
 
-### [Get an issue](../reference/issues.md#groups-group\_id-issues-issue\_id) (Group)
+### [Get an issue](../reference/issues.md#groups-group_id-issues-issue_id) (Group)
 
 ## Licenses (v1)
 
@@ -446,13 +444,13 @@ More information: [ Reachability](../../manage-risk/prioritize-issues-for-fixing
 
 ### [List accessible organizations](../reference/orgs.md#orgs)
 
-### [Update organization](../reference/orgs.md#orgs-org\_id)
+### [Update organization](../reference/orgs.md#orgs-org_id)
 
-### [Get organization](../reference/orgs.md#orgs-org\_id-1)
+### [Get organization](../reference/orgs.md#orgs-org_id-1)
 
-### [List all organizations in a group](../reference/orgs.md#groups-group\_id-orgs)
+### [List all organizations in a group](../reference/orgs.md#groups-group_id-orgs)
 
-### [Get an ORG](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org\_id-) (beta)
+### [Get an ORG](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org_id-) (beta)
 
 **More information:** [Org and group identification for Projects](organization-and-group-identification-for-projects-using-the-api.md)
 
@@ -470,11 +468,11 @@ More information: [Annotated import](../../scan-with-snyk/snyk-container/kuberne
 
 ### [Add a tag to a project](../reference/projects-v1.md#org-orgid-project-projectid-tags)
 
-**More information:** [Project tags](../../snyk-admin/introduction-to-snyk-projects/project-tags.md); [Set up Insights: Associating Snyk Open Source, Code, and Container Projects](../../manage-risk/prioritize-issues-for-fixing/set-up-insights-for-snyk-apprisk/set-up-insights-associating-snyk-open-source-code-and-container-projects.md)
+**More information:** [Project tags](../../snyk-admin/snyk-projects/project-tags.md); [Set up Insights: Associating Snyk Open Source, Code, and Container Projects](../../manage-risk/prioritize-issues-for-fixing/set-up-insights-for-snyk-apprisk/set-up-insights-associating-snyk-open-source-code-and-container-projects.md)
 
 ### [Remove a tag from a project](../reference/projects-v1.md#org-orgid-project-projectid-tags-remove)
 
-**More information:** [Project tags](../../snyk-admin/introduction-to-snyk-projects/project-tags.md)
+**More information:** [Project tags](../../snyk-admin/snyk-projects/project-tags.md)
 
 ### [Update project settings](../reference/projects-v1.md#org-orgid-project-projectid-settings)
 
@@ -520,7 +518,7 @@ More information: [Annotated import](../../scan-with-snyk/snyk-container/kuberne
 
 By using the API endpoint Applying attributes, you can set attributes for Snyk Projects including business criticality, lifecycle stage, and environment once the project has been created . To do so:
 
-* Import the project using the  API endpoint [Import targets](../reference/import-projects-v1.md#org-orgid-integrations-integrationid-import).
+* Import the project using the API endpoint [Import targets](../reference/import-projects-v1.md#org-orgid-integrations-integrationid-import).
 * Get the status API ID from [Import targets](../reference/import-projects-v1.md#org-orgid-integrations-integrationid-import).
 * Poll using the endpoint [Import job details](../reference/import-projects-v1.md#org-orgid-integrations-integrationid-import-jobid) until all imports have completed.
 * Parse the project IDs from the `projectURL` field.
@@ -536,33 +534,33 @@ The Snyk V1 API endpoint [List all aggregated issues](https://snyk.docs.apiary.i
 
 ## Projects
 
-### [List all Projects for an Org with the given Org ID](../reference/projects.md#orgs-org\_id-projects)
+### [List all Projects for an Org with the given Org ID](../reference/projects.md#orgs-org_id-projects)
 
 The query-string parameter types is optional. The endpoint does not enforce specific project types and will return no matching projects if you enter a string that does not match a project type.
 
 **More information:** [Slack apps](../../integrate-with-snyk/jira-and-slack-integrations/slack-app.md) (Use: Find your Project ID); [Snyk Projects](../../snyk-admin/snyk-projects/); [Project information](../../snyk-admin/snyk-projects/project-information.md)
 
-### [Updates project by project ID](../reference/projects.md#orgs-org\_id-projects-project\_id)
+### [Updates project by project ID](../reference/projects.md#orgs-org_id-projects-project_id)
 
 **More information:** [View and edit Project settings](../../snyk-admin/snyk-projects/view-and-edit-project-settings.md); [Start scanning](../../scan-with-snyk/start-scanning.md) (Use: Set test frequency)
 
-### [Get project by project ID](../reference/projects.md#orgs-org\_id-projects-project\_id-1)
+### [Get project by project ID](../reference/projects.md#orgs-org_id-projects-project_id-1)
 
-### [Delete project by project ID](../reference/projects.md#orgs-org\_id-projects-project\_id-2)
+### [Delete project by project ID](../reference/projects.md#orgs-org_id-projects-project_id-2)
 
 ## Pull request templates
 
-### [Create or update pull request template for group](../reference/pull-request-templates.md#groups-group\_id-settings-pull\_request\_template)
+### [Create or update pull request template for group](../reference/pull-request-templates.md#groups-group_id-settings-pull_request_template)
 
 **More information:** [Create and manage a custom PR template using the API](../../scan-with-snyk/pull-requests/snyk-pull-or-merge-requests/customize-pr-templates/apply-a-custom-pr-template.md#create-and-manage-a-custom-pr-template-using-the-api)
 
-### [Get pull request template for group](../reference/pull-request-templates.md#groups-group\_id-settings-pull\_request\_template-1)
+### [Get pull request template for group](../reference/pull-request-templates.md#groups-group_id-settings-pull_request_template-1)
 
-### [Delete pull request template for group](../reference/pull-request-templates.md#groups-group\_id-settings-pull\_request\_template-2)
+### [Delete pull request template for group](../reference/pull-request-templates.md#groups-group_id-settings-pull_request_template-2)
 
 ## Reporting API (v1)
 
-**More information:** [Legacy reports](../../manage-issues/reporting/legacy-reports/); [Dependencies and licenses](../../manage-risk/reporting/dependencies-and-licenses/)
+**More information:** [Legacy reports](../../manage-risk/reporting/legacy-reports/); [Dependencies and licenses](../../manage-risk/reporting/dependencies-and-licenses/)
 
 ### [Get list of latest issues](../reference/reporting-api-v1.md#reporting-issues-latest)
 
@@ -592,109 +590,109 @@ See notes for [Get list of latest issues](./#get-list-of-latest-issues).
 
 ### [Get a project’s SBOM document](../reference/sbom.md)
 
-### [Create an SBOM test run](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#post-/orgs/-org\_id-/sbom\_tests) (beta)
+### [Create an SBOM test run](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#post-/orgs/-org_id-/sbom_tests) (beta)
 
-### [Gets an SBOM test run status](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/sbom\_tests/-job\_id-) (beta)
+### [Gets an SBOM test run status](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org_id-/sbom_tests/-job_id-) (beta)
 
-### [Gets an SBOM test run result](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/sbom\_tests/-job\_id-/results) (beta)
+### [Gets an SBOM test run result](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org_id-/sbom_tests/-job_id-/results) (beta)
 
 ## SastSettings
 
-### [Enable/Disable the Snyk Code settings for an org](../reference/sastsettings.md#orgs-org\_id-settings-sast)
+### [Enable/Disable the Snyk Code settings for an org](../reference/sastsettings.md#orgs-org_id-settings-sast)
 
 **More information:** [Enable Snyk Code](../../implement-snyk/enterprise-implementation-guide/phase-2-configure-account/set-visibility-and-configure-an-organization-template/enable-snyk-code.md) (Enterprise implementation guide, Phase 2)
 
-### [Retrieves the SAST settings for an org](../reference/sastsettings.md#orgs-org\_id-settings-sast-1)
+### [Retrieves the SAST settings for an org](../reference/sastsettings.md#orgs-org_id-settings-sast-1)
 
 ## ServiceAccounts
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md); [Choose a service account type to use with Snyk APIs](../../enterprise-setup/service-accounts/choose-a-service-account-type-to-use-with-snyk-apis.md)
 
-### [Create a service account for an organization](../reference/serviceaccounts.md#orgs-org\_id-service\_accounts)
+### [Create a service account for an organization](../reference/serviceaccounts.md#orgs-org_id-service_accounts)
 
 **More information:** [Service accounts using OAuth 2.0](../../enterprise-setup/service-accounts/service-accounts-using-oauth-2.0.md), [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Get a list of organization service accounts](../reference/serviceaccounts.md#orgs-org\_id-service\_accounts-1)
+### [Get a list of organization service accounts](../reference/serviceaccounts.md#orgs-org_id-service_accounts-1)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Update an organization service account](../reference/serviceaccounts.md#orgs-org\_id-service\_accounts-serviceaccount\_id)
+### [Update an organization service account](../reference/serviceaccounts.md#orgs-org_id-service_accounts-serviceaccount_id)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Get an organization service account](../reference/serviceaccounts.md#orgs-org\_id-service\_accounts-serviceaccount\_id-1)
+### [Get an organization service account](../reference/serviceaccounts.md#orgs-org_id-service_accounts-serviceaccount_id-1)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Delete a service account in an organization](../reference/serviceaccounts.md#orgs-org\_id-service\_accounts-serviceaccount\_id-2)
+### [Delete a service account in an organization](../reference/serviceaccounts.md#orgs-org_id-service_accounts-serviceaccount_id-2)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Manage an organization service account’s client secret](../reference/serviceaccounts.md#orgs-org\_id-service\_accounts-serviceaccount\_id-secrets)
+### [Manage an organization service account’s client secret](../reference/serviceaccounts.md#orgs-org_id-service_accounts-serviceaccount_id-secrets)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Create a service account for a group](../reference/serviceaccounts.md#groups-group\_id-service\_accounts)
+### [Create a service account for a group](../reference/serviceaccounts.md#groups-group_id-service_accounts)
 
 **More information:** [Service accounts using OAuth 2.0](../../enterprise-setup/service-accounts/service-accounts-using-oauth-2.0.md), [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Get a list of group service accounts](../reference/serviceaccounts.md#groups-group\_id-service\_accounts-1)
+### [Get a list of group service accounts](../reference/serviceaccounts.md#groups-group_id-service_accounts-1)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Update a group service account](../reference/serviceaccounts.md#groups-group\_id-service\_accounts-serviceaccount\_id)
+### [Update a group service account](../reference/serviceaccounts.md#groups-group_id-service_accounts-serviceaccount_id)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Get a group service account](../reference/serviceaccounts.md#groups-group\_id-service\_accounts-serviceaccount\_id-1)
+### [Get a group service account](../reference/serviceaccounts.md#groups-group_id-service_accounts-serviceaccount_id-1)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Delete a group service account](../reference/serviceaccounts.md#groups-group\_id-service\_accounts-serviceaccount\_id)
+### [Delete a group service account](../reference/serviceaccounts.md#groups-group_id-service_accounts-serviceaccount_id)
 
 **More information:** [Manage service accounts using the Snyk API](../../enterprise-setup/service-accounts/manage-service-accounts-using-the-snyk-api.md)
 
-### [Manage a group service account’s client secret](../reference/serviceaccounts.md#groups-group\_id-service\_accounts-serviceaccount\_id-secrets)
+### [Manage a group service account’s client secret](../reference/serviceaccounts.md#groups-group_id-service_accounts-serviceaccount_id-secrets)
 
 ## SlackSettings
 
-### [Create new Slack notification default settings](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id)
+### [Create new Slack notification default settings](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id)
 
-### [Get Slack integration default notification settings](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id-1)
+### [Get Slack integration default notification settings](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id-1)
 
-### [Remove the given Slack App integration](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id-2)
+### [Remove the given Slack App integration](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id-2)
 
-### [Slack notification settings override for projects](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id-projects)
+### [Slack notification settings override for projects](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id-projects)
 
 **More information:** [Slack apps](../../integrate-with-snyk/jira-and-slack-integrations/slack-app.md) (Use: List all Slack notification customizations for a project)
 
-### [Create a new Slack settings override for a given project](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id-projects-project\_id)
+### [Create a new Slack settings override for a given project](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id-projects-project_id)
 
 **More information:** [Slack apps](../../integrate-with-snyk/jira-and-slack-integrations/slack-app.md) (Use: Create a Slack notification customization for a Project)
 
-### [Update Slack notification settings for a project](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id-projects-project\_id-1)
+### [Update Slack notification settings for a project](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id-projects-project_id-1)
 
 **More information:** [Slack apps](../../integrate-with-snyk/jira-and-slack-integrations/slack-app.md) (Use: Update a Slack notification customization for a Project)
 
-### [Remove Slack settings override for a project](../reference/slacksettings.md#orgs-org\_id-slack\_app-bot\_id-projects-project\_id-2)
+### [Remove Slack settings override for a project](../reference/slacksettings.md#orgs-org_id-slack_app-bot_id-projects-project_id-2)
 
 **More information:** [Slack apps](../../integrate-with-snyk/jira-and-slack-integrations/slack-app.md) (Use: Delete a Slack notification customization for a Project)
 
 ## Slack
 
-### [Get a list of Slack channels](../reference/slack.md#orgs-org\_id-slack\_app-tenant\_id-channels)
+### [Get a list of Slack channels](../reference/slack.md#orgs-org_id-slack_app-tenant_id-channels)
 
-### [Get Slack Channel name by Slack Channel ID](../reference/slack.md#orgs-org\_id-slack\_app-tenant\_id-channels-channel\_id)
+### [Get Slack Channel name by Slack Channel ID](../reference/slack.md#orgs-org_id-slack_app-tenant_id-channels-channel_id)
 
 ## Targets
 
-### [Get targets by org ID](../reference/targets.md#orgs-org\_id-targets)&#x20;
+### [Get targets by org ID](../reference/targets.md#orgs-org_id-targets)
 
 **More information:** [Target definition on the Snyk Projects page](../../snyk-admin/snyk-projects/#target)
 
-### [Get target by target ID](../reference/targets.md#orgs-org\_id-targets-target\_id)
+### [Get target by target ID](../reference/targets.md#orgs-org_id-targets-target_id)
 
-### [Delete target by target ID](../reference/targets.md#orgs-org\_id-targets-target\_id-1)
+### [Delete target by target ID](../reference/targets.md#orgs-org_id-targets-target_id-1)
 
 ## Test (v1)
 
@@ -722,7 +720,7 @@ See notes for [Get list of latest issues](./#get-list-of-latest-issues).
 
 ### [Test maven file](../reference/test-v1.md#test-maven)
 
-### [Test  for issues in a (maven) public package by group id, artifact id and version](../reference/test-v1.md#test-maven-groupid-artifactid-version)
+### [Test for issues in a (maven) public package by group id, artifact id and version](../reference/test-v1.md#test-maven-groupid-artifactid-version)
 
 **More information:** [Guidance for Java and Kotlin](../../supported-languages-package-managers-and-frameworks/java-and-kotlin/guidance-for-java-and-kotlin.md)
 
@@ -758,13 +756,13 @@ See notes for [Get list of latest issues](./#get-list-of-latest-issues).
 
 ### [My User Details](../reference/users.md)
 
-### [Update a user’s role in a group](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#patch-/groups/-group\_id-/users/-id-) (beta)
+### [Update a user’s role in a group](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#patch-/groups/-group_id-/users/-id-) (beta)
 
 Note: Use this endpoint to remove users from a group.
 
 **More information:** [Remove members from Groups and Orgs using the API](../../snyk-admin/user-management-with-the-api/remove-members-from-groups-and-orgs-using-the-api.md)
 
-### [Get user by ID](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org\_id-/users/-id-) (beta)
+### [Get user by ID](https://apidocs.snyk.io/?version=2024-07-10%7Ebeta#get-/orgs/-org_id-/users/-id-) (beta)
 
 ## Webhooks (v1)
 
@@ -778,6 +776,4 @@ Note: Use this endpoint to remove users from a group.
 
 ### [Ping a webhook](../reference/webhooks-v1.md#org-orgid-webhooks-webhookid-ping)
 
-
-
-\
+\\

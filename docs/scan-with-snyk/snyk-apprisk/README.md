@@ -2,9 +2,9 @@
 
 Snyk AppRisk is a product that enables Application Security teams to implement, manage, and scale a modern, high-performing, developer security program. The product covers use cases under Application Security Posture Management (ASPM).
 
-**Snyk AppRisk Essentials** helps AppSec teams better operationalize and scale usage of Snyk with broad application visibility and security coverage management. At the same time, **Snyk AppRisk Pro** enhances the foundational capabilities of Snyk AppRisk Essentials by supporting non-Snyk Application Security products, offering a more extensive and flexible ASPM approach. It enables integrations with a wider range of security tools beyond the Snyk ecosystem, advanced security policies, in-depth risk analysis, and more customizable controls. This allows security teams to manage and maintain a robust security framework across diverse applications and development environments, ensuring a heightened level of protection and compliance.&#x20;
+**Snyk AppRisk Essentials** helps AppSec teams better operationalize and scale usage of Snyk with broad application visibility and security coverage management. At the same time, **Snyk AppRisk Pro** enhances the foundational capabilities of Snyk AppRisk Essentials by supporting non-Snyk Application Security products, offering a more extensive and flexible ASPM approach. It enables integrations with a wider range of security tools beyond the Snyk ecosystem, advanced security policies, in-depth risk analysis, and more customizable controls. This allows security teams to manage and maintain a robust security framework across diverse applications and development environments, ensuring a heightened level of protection and compliance.
 
-Snyk AppRisk Essentials enables:&#x20;
+Snyk AppRisk Essentials enables:
 
 * **Automated app asset discovery**: Continually discover application assets and classify them by business context, ensuring security is in sync with development.
 * **Tailored security controls**: Define and manage appropriate security and compliance requirements, and verify the correct controls are in place.
@@ -18,7 +18,7 @@ Snyk AppRisk Pro builds upon the capabilities of Snyk AppRisk Essentials by offe
 
 ## Features
 
-Snyk AppRisk Essentials includes the following features:&#x20;
+Snyk AppRisk Essentials includes the following features:
 
 * [**Integrations**](../../scm-ide-and-ci-cd-integrations/snyk-scm-integrations/#group-level-snyk-apprisk-scm-integrations) to support ingesting data from SCM tools for asset discovery, Snyk Application Security Testing products for security controls coverage, and ticketing or notification tools for policy actions. Use the Integration Hub from the Integration page to add and set up new integrations.
 * [**Policies**](../../manage-risk/policies/assets-policies/) to classify and tag assets with business context and configure actions using a Policy Builder UI.
@@ -27,7 +27,7 @@ Snyk AppRisk Essentials includes the following features:&#x20;
 
 On top of the Snyk AppRisk Essentials features, Snyk AppRisk Pro offers:
 
-* [**Integrations**](../../manage-risk/snyk-apprisk/integrations-for-snyk-apprisk/connect-a-third-party-integration.md) with non-Snyk products to support security coverage and Insights use cases
+* [**Integrations**](../../integrate-with-snyk/connect-a-third-party-integration.md) with non-Snyk products to support security coverage and Insights use cases
 * [**Insights**](../../manage-risk/prioritize-issues-for-fixing/prioritization-for-snyk-apprisk.md) for runtime context - providing risk factors to help with risk-based prioritization.
 * [**Analytics**](../../manage-risk/enterprise-analytics/application-analytics.md) for reviewing and comparing assets and issues metrics at the level of asset classes, applications, or code owners.
 

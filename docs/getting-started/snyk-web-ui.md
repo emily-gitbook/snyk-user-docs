@@ -207,7 +207,7 @@ The following Snyk functions are available with the Web UI, for all level types:
 Reporting is available for Enterprise plans. For more information, see [Plans and pricing](https://snyk.io/plans/).
 {% endhint %}
 
-You can view [reports](../manage-issues/reporting/) to gain visibility and insights into the state of all your Projects, vulnerabilities, and license issues. You will find detailed definitions for information on the reports in the tooltips in the Reporting user interface.
+You can view [reports](../manage-risk/reporting/) to gain visibility and insights into the state of all your Projects, vulnerabilities, and license issues. You will find detailed definitions for information on the reports in the tooltips in the Reporting user interface.
 
 The Reports page is available at both the Group and Organization levels.
 
@@ -255,5 +255,5 @@ Select your **name** in the navigation on the Dashboard and then **Account setti
 * View the list of your **Authorized Applications**.
 * Set your preferred Organization. See [Manage Organizations: Set your preferred Organization](../snyk-admin/groups-and-organizations/organizations/create-and-delete-organizations.md#set-your-preferred-organization).
 * **Delete** your account.
-* Manage your Account Settings for email **Notifications** (link in the left navigation), including Issue email alerts, Weekly report emails, and Usage alerts, as well as email notifications when reports are available and preferences for sales and marketing communications.  For details, see [Manage notifications](../snyk-admin/manage-notifications.md).
+* Manage your Account Settings for email **Notifications** (link in the left navigation), including Issue email alerts, Weekly report emails, and Usage alerts, as well as email notifications when reports are available and preferences for sales and marketing communications. For details, see [Manage notifications](../snyk-admin/manage-notifications.md).
 * Get a referral link to **Share with a Friend**. The link is in the left navigation of your Account Settings.

@@ -8,7 +8,7 @@ The GitHub integration is available for all Snyk customers regardless of plan le
 
 When you want to add new integrations to your Snyk account you need to first decide the level type at which you want to install the integration.
 
-* [Group level ](github.md#group-level-snyk-apprisk-integrations)- Add integrations to your Snyk application that will be available for your Snyk AppRisk Essentials or Snyk AppRisk Pro.&#x20;
+* [Group level ](github.md#group-level-snyk-apprisk-integrations)- Add integrations to your Snyk application that will be available for your Snyk AppRisk Essentials or Snyk AppRisk Pro.
 * [Organization level](github.md#organization-level-snyk-integrations) - Add integrations for your Snyk application that will be available for all Snyk products, except Snyk AppRisk.
 
 {% hint style="info" %}
@@ -72,11 +72,7 @@ You can then scroll down to the section required, and set the options accordingl
 
 Select **General** to view general settings:
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/Github-integrations-general.png" alt="GitHub integration general settings" width="563"><figcaption><p>GitHub integration general settings</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/Github-integrations-general.png" alt="GitHub integration general settings" width="563"><figcaption><p>GitHub integration general settings</p></figcaption></figure></div>
 
 * **Integration ID**: The unique ID for this integration, needed if you use the [Snyk API](../../snyk-api/).
 * **Repository access**: Whether Snyk can access private repos (in addition to public repos). Changing this setting affects existing Projects.
@@ -97,7 +93,7 @@ After you have connected GitHub to Snyk, you can use:
 Reports are available with Enterprise plans. See the [plans and pricing](https://snyk.io/plans/) page for details.
 {% endhint %}
 
-Snyk produces advanced [security reports](../../manage-issues/reporting/legacy-reports/legacy-reports-overview.md) that let you explore the vulnerabilities found in your repositories and fix them right away by opening a fix pull request directly in your repository, with the required upgrades or patches.
+Snyk produces advanced [security reports](../../manage-risk/reporting/legacy-reports/legacy-reports-overview.md) that let you explore the vulnerabilities found in your repositories and fix them right away by opening a fix pull request directly in your repository, with the required upgrades or patches.
 
 This example shows a Project-level security report.
 
@@ -115,11 +111,7 @@ To review and adjust the automatic fix pull request settings in the Snyk GitHub 
 
 Scroll down to the **Automatic fix PRs** section and set the options. For definitions, see [Configure automatic fix PRs at the integration level](../../scan-with-snyk/pull-requests/snyk-pull-or-merge-requests/create-automatic-prs-for-backlog-issues-and-known-vulnerabilities-backlog-prs.md#configure-automatic-fix-prs-at-the-integration-level).
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/Github-integrations-auto-fix-PRs.png" alt="Automatic fix pull request settings" width="563"><figcaption><p>Automatic fix pull request settings</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/Github-integrations-auto-fix-PRs.png" alt="Automatic fix pull request settings" width="563"><figcaption><p>Automatic fix pull request settings</p></figcaption></figure></div>
 
 #### Commit signing
 
@@ -140,15 +132,11 @@ This example shows how Snyk PR checks appear on the GitHub pull request page.
 
 You can review and adjust the pull request test settings using the Snyk GitHub Integration settings page in Organization **Settings** **>** **Integrations > Source control > GitHub**.
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/Github-integrations-PR-request-status-checks.png" alt="Pull request status checks settings" width="563"><figcaption><p>Pull request status checks settings</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/Github-integrations-PR-request-status-checks.png" alt="Pull request status checks settings" width="563"><figcaption><p>Pull request status checks settings</p></figcaption></figure></div>
 
 ### GitHub user permissions and actions
 
-In non-brokered GitHub integrations, operations that are triggered through the Snyk Web UI, for example, opening a Fix PR or re-testing a Project, are performed on behalf of the acting user.&#x20;
+In non-brokered GitHub integrations, operations that are triggered through the Snyk Web UI, for example, opening a Fix PR or re-testing a Project, are performed on behalf of the acting user.
 
 Therefore, a user who wants to perform this operation on GitHub through the Snyk UI must connect their GitHub account to Snyk with the required permission scope for the repositories where they want to perform these operations. See [GitHub and GitHub Enterprise permissions requirements](./#github-and-github-enterprise-permissions-requirements) for details.
 
@@ -177,11 +165,7 @@ To use this feature, follow these steps:
    You can [generate this from your GitHub account](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 3. Click **Save** to enable this feature.
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/image (5) (1) (3).png" alt="Set an account to open Snyk PRs" width="563"><figcaption><p>Set an account to open Snyk PRs</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (5) (1) (3).png" alt="Set an account to open Snyk PRs" width="563"><figcaption><p>Set an account to open Snyk PRs</p></figcaption></figure></div>
 
 {% hint style="info" %}
 Ensure that the GitHub account that you designate to open Snyk PRs has **write-level** permissions or higher for the repos you want to monitor with Snyk.
@@ -205,15 +189,11 @@ Users can either be manually specified, and all will be assigned, or automatical
 
 #### **Enable Auto-assign for all Projects in the GitHub integration**
 
-To configure the Auto-assign settings for all the Projects from an imported private repository, go to the Github integration settings using Organization **Settings** **>** **Integrations > Source control > GitHub** and select **Enable pull request assignees**.&#x20;
+To configure the Auto-assign settings for all the Projects from an imported private repository, go to the Github integration settings using Organization **Settings** **>** **Integrations > Source control > GitHub** and select **Enable pull request assignees**.
 
 You can then choose to assign PRs to the last user to change the manifest file or specified contributors.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt="Auto-assign PRs in private repos"><figcaption><p>Auto-assign PRs in private repos</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt="Auto-assign PRs in private repos"><figcaption><p>Auto-assign PRs in private repos</p></figcaption></figure></div>
 
 {% hint style="info" %}
 For pull request assignees, the option **The last user to change the manifest file** is based on blame data, not Git commits.
@@ -230,11 +210,7 @@ To configure the Auto-assign settings for a specific Project from an imported pr
 4. Ensure **Auto-assign PRs for this private Project** is enabled.
 5. Choose to assign PRs to the last user to change the manifest file or named contributors.
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt="Auto-assign PRs for this private Project" width="375"><figcaption><p>Auto-assign PRs for this private Project</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt="Auto-assign PRs for this private Project" width="375"><figcaption><p>Auto-assign PRs for this private Project</p></figcaption></figure></div>
 
 ### How to disable the GitHub integration
 
@@ -263,7 +239,7 @@ Note that branch protection is active only after a PR has been raised.
 2. Ensure there are no **Status checks found in the last week for this repository.**
 
 {% hint style="info" %}
-A disconnected GitHub integration will still appear as configured in the Integrations menu of the Snyk UI. However, clicking on the integration settings will show that it is not connected. In this case, the "configured" integration can safely be ignored.&#x20;
+A disconnected GitHub integration will still appear as configured in the Integrations menu of the Snyk UI. However, clicking on the integration settings will show that it is not connected. In this case, the "configured" integration can safely be ignored.
 {% endhint %}
 
 ### Migrate to the GitHub Enterprise integration

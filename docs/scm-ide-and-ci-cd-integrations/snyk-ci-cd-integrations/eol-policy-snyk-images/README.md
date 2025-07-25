@@ -4,21 +4,21 @@ This page outlines the Snyk end-of-life policy for images provided by the [Snyk 
 
 ## Purpose of policy
 
-As a continued commitment to helping customers ship secure code, Snyk will provide images that contain software supported by its upstream vendor. Snyk will not build, maintain, or ship images based on EOL software. For example, Snyk has stopped building images based on Python 3.7, which is not actively supported does not receive security updates from Python.&#x20;
+As a continued commitment to helping customers ship secure code, Snyk will provide images that contain software supported by its upstream vendor. Snyk will not build, maintain, or ship images based on EOL software. For example, Snyk has stopped building images based on Python 3.7, which is not actively supported does not receive security updates from Python.
 
 ## Snyk Images life cycle
 
-Snyk is updating this page annually for planned removal of images containing software nearing end of life.&#x20;
+Snyk is updating this page annually for planned removal of images containing software nearing end of life.
 
-Users are encouraged to check this page from time to time, and also to determine whether their build pipelines are using EOL software by checking the [endoflife.date](https://endoflife.date/) website.&#x20;
+Users are encouraged to check this page from time to time, and also to determine whether their build pipelines are using EOL software by checking the [endoflife.date](https://endoflife.date/) website.
 
-Snyk follows a phased approach to building, maintaining, and sunsetting an image.&#x20;
+Snyk follows a phased approach to building, maintaining, and sunsetting an image.
 
 ### Creation phase
 
 Based on demand and requests, a base image can be added to `snyk-images` if the base image is vendor-supported.
 
-Snyk accepts only base images from trusted vendors. The table that follows lists software bundled with the Snyk CLI in a Docker image.  For a complete list of versions that are currently available, see [the current images](https://github.com/snyk/snyk-images/tree/master?tab=readme-ov-file#current-images) repository.&#x20;
+Snyk accepts only base images from trusted vendors. The table that follows lists software bundled with the Snyk CLI in a Docker image. For a complete list of versions that are currently available, see [the current images](https://github.com/snyk/snyk-images/tree/master?tab=readme-ov-file#current-images) repository.
 
 {% hint style="info" %}
 Snyk is not responsible for securing the vendor-provided base image itself.
@@ -45,11 +45,11 @@ Snyk is not responsible for securing the vendor-provided base image itself.
 
 ### Active support and maintenance phase
 
-As long as the vendor supports the base image, the Snyk image will include the latest stable Snyk CLI version and a regularly updated version of the base image. &#x20;
+As long as the vendor supports the base image, the Snyk image will include the latest stable Snyk CLI version and a regularly updated version of the base image.
 
 ### End of Life (EOL) phase
 
-After the vendor software reaches EOL, that is, stops receiving active support and security updates, Snyk will also stop building, maintaining, and shipping the impacted image. Snyk will take this action during a four-month planned removal process.&#x20;
+After the vendor software reaches EOL, that is, stops receiving active support and security updates, Snyk will also stop building, maintaining, and shipping the impacted image. Snyk will take this action during a four-month planned removal process.
 
 Snyk will update the current images repository and user documentation to reflect this change followed by complete removal of images containing EOL software.
 
@@ -63,4 +63,4 @@ Here is how Snyk implements this phased approach during the four-month annual cy
 | July            | Create and publish migration user guides on docs.snyk.io where applicable,                        | User documentation will be updated with migration guides,                                |
 | August          | Remove impacted images from Docker Hub,                                                           | Impacted images will be removed,                                                         |
 
-For more details, see [Images planned to be removed in 2024](../../../scm-ide-and-ci-cd-workflow-and-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images/images-planned-to-be-removed-in-2024.md) and [Images no longer supported by Snyk](../../../scm-ide-and-ci-cd-workflow-and-integrations/snyk-ci-cd-integrations/eol-policy-snyk-images/images-no-longer-supported-by-snyk.md).
+For more details, see [Images planned to be removed in 2024](images-planned-to-be-removed-in-2024.md) and [Images no longer supported by Snyk](images-no-longer-supported-by-snyk.md).

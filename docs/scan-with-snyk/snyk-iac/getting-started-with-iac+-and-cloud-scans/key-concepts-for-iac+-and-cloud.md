@@ -4,7 +4,7 @@
 Snyk IaC+ is now in closed beta and is no longer accepting new customers for participation
 
 \
-_Please see_ [_Getting started with current IaC_](https://docs.snyk.io/scan-using-snyk/snyk-iac/getting-started-with-current-iac) _for more details about the functionality available_
+&#xNAN;_&#x50;lease see_ [_Getting started with current IaC_](https://docs.snyk.io/scan-using-snyk/snyk-iac/getting-started-with-current-iac) _for more details about the functionality available_
 {% endhint %}
 
 IaC+ and cloud scans have a number of unique concepts that are different from Snyk core concepts, such as [Environments](key-concepts-for-iac+-and-cloud.md#environments) and [Resources](key-concepts-for-iac+-and-cloud.md#resources).
@@ -20,7 +20,7 @@ Unlike a Snyk [Project](../../../snyk-admin/snyk-projects/#project), an environm
 
 A Snyk environment also includes integration settings for a cloud provider. For example, each environment can represent an integration with a different AWS account.
 
-Use the [`/cloud/environments`](https://apidocs.snyk.io/#get-/orgs/-org\_id-/cloud/environments) Snyk REST API endpoint to retrieve a list of all environments and optionally filter by attribute, such as name and scan status.
+Use the [`/cloud/environments`](https://apidocs.snyk.io/#get-/orgs/-org_id-/cloud/environments) Snyk REST API endpoint to retrieve a list of all environments and optionally filter by attribute, such as name and scan status.
 
 The following cloud providers are supported:
 
@@ -34,7 +34,7 @@ A **resource** is a cloud infrastructure entity such as an AWS S3 bucket; Identi
 
 On each scan, Snyk records the configuration attributes of each resource in an environment.
 
-You can use the [`/cloud/resources`](https://apidocs.snyk.io/?version=2023-05-29%7Ebeta#get-/orgs/-org\_id-/cloud/resources) Snyk REST API endpoint to retrieve a list of all resources for an Organization and optionally filter by an attribute such as environment ID, resource ID, or resource type.
+You can use the [`/cloud/resources`](https://apidocs.snyk.io/?version=2023-05-29%7Ebeta#get-/orgs/-org_id-/cloud/resources) Snyk REST API endpoint to retrieve a list of all resources for an Organization and optionally filter by an attribute such as environment ID, resource ID, or resource type.
 
 For a list of supported resource types for cloud environments, see the following:
 
@@ -62,7 +62,7 @@ You can view your Organization's issues in the Snyk Web UI. See [View IaC+ issue
 
 ## Compliance standard <a href="#docs-internal-guid-e2e38027-7fff-9271-f2c0-e23677542f6e" id="docs-internal-guid-e2e38027-7fff-9271-f2c0-e23677542f6e"></a>
 
-A **compliance standard** is a framework that establishes guidelines and controls for Organizations to secure their IT systems and infrastructure. Compliance standards are versioned, with versions being released at various cadences. Examples: NIST 800-53 (vRev5), CIS AWS Foundations Benchmark (v1.4.0). Snyk provides a [Cloud Compliance Issues report](../../../manage-issues/reporting/available-snyk-reports.md#cloud-compliance-issues-report).
+A **compliance standard** is a framework that establishes guidelines and controls for Organizations to secure their IT systems and infrastructure. Compliance standards are versioned, with versions being released at various cadences. Examples: NIST 800-53 (vRev5), CIS AWS Foundations Benchmark (v1.4.0). Snyk provides a [Cloud Compliance Issues report](../../../manage-risk/reporting/available-snyk-reports.md#cloud-compliance-issues-report).
 
 For more information, see [supported compliance standards](../view-iac+-and-cloud-compliance-reporting.md#supported-compliance-standards).
 
@@ -75,4 +75,3 @@ A **compliance control** is a specific recommendation or guideline from a compli
 Snyk “maps” security [rules](key-concepts-for-iac+-and-cloud.md#rules) to compliance controls, which means each rule is associated with one or more controls and each control is associated with one or more rules.
 
 For example, control 2.1.5 of CIS AWS Foundations Benchmark (v1.4.0) is “Ensure that S3 Buckets are configured with ‘Block public access (bucket settings’” and it maps to the security rule [SNYK-CC-00195](https://security.snyk.io/rules/cloud/SNYK-CC-00195), which is “S3 bucket does not have all block public access options enabled.”
-

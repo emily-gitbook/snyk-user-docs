@@ -1,6 +1,6 @@
 # View Snyk IaC issue reports
 
-Use [Snyk reports](../../manage-issues/reporting/legacy-reports/) to view issues in your IaC configuration files.
+Use [Snyk reports](../../manage-risk/reporting/legacy-reports/) to view issues in your IaC configuration files.
 
 {% hint style="info" %}
 **Feature availability**
@@ -16,9 +16,9 @@ Infrastructure as Code configuration issues appear in the summary statistics and
 
 To view IaC issues only, select **Configuration** from the **Summary filters** drop down:
 
-![](../../.gitbook/assets/screenshot\_2021-02-17\_at\_14.22.50.png)
+![](../../.gitbook/assets/screenshot_2021-02-17_at_14.22.50.png)
 
-For more details on the summary tab, see the [Reports Summary tab](../../manage-issues/reporting/legacy-reports/legacy-reports-summary-tab.md) documentation.
+For more details on the summary tab, see the [Reports Summary tab](../../manage-risk/reporting/legacy-reports/legacy-reports-summary-tab.md) documentation.
 
 ## Issues page
 
@@ -34,7 +34,7 @@ You can also view the issues ungrouped; this shows more information about the Pr
 
 ![](<../../.gitbook/assets/image2-3 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (5) (7).png>)
 
-For more details on the issues tab, see [Issues tab](../../manage-issues/reporting/legacy-reports/legacy-reports-issues-tab.md) documentation.
+For more details on the issues tab, see [Issues tab](../../manage-risk/reporting/legacy-reports/legacy-reports-issues-tab.md) documentation.
 
 Use the **Export button to export issues** as a CSV file in the same format as your vulnerabilities.
 

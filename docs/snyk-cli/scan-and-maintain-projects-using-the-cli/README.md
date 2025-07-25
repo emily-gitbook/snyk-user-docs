@@ -14,7 +14,7 @@ The remaining pages address [Scanning Projects](./#scanning-projects), [Monitori
 * [Failing **builds** in Snyk CLI](failing-of-builds-in-snyk-cli.md)
 * [**Ignore** vulnerabilties using Snyk CLI](ignore-vulnerabilities-using-the-snyk-cli.md)
 * [**Invalid string length** error when scanning projects](invalid-string-length-error-when-scanning-projects.md)
-* [Scan all unmanaged **JAR files**](../test-for-vulnerabilities/scan-all-unmanaged-jar-files.md)
+* [Scan all unmanaged **JAR files**](scan-all-unmanaged-jar-files.md)
 * [How to select the **organization** to use in the CLI](how-to-select-the-organization-to-use-in-the-cli.md)
 * [**Setup.py file** failing to scan or finding zero dependencies](setup.py-file-failing-to-scan-or-finding-zero-dependencies.md)
 * [**Severity thresholds** for CLI tests](set-severity-thresholds-for-cli-tests.md)
